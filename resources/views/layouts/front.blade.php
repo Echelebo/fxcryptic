@@ -1,653 +1,1086 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US">
+
+
+<!-- Mirrored from b9-cryptomining.com/?a=about by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jun 2022 20:34:16 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fxcryptic </title>
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/demo.moxcreative.com\/kingsley\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8"
+            }
+        };
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
 
-    <link rel="apple-touch-icon" href="{{ asset('assets/images/' . site('favicon')) }}">
-    <link rel="icon" href="{{ asset('assets/images/' . site('favicon')) }}">
-    <title> {{ $page_title }} | {{ site('name') }}</title>
-    <meta name="author" content="support@altusfund.net">
-    <meta name="description" content="{{ $short_description }}">
-    <meta property="og:url" content="{{ request()->url }}">
-    <meta property="og:title" content="{{ $page_title }} | {{ site('name') }}">
-    <meta property="og:description" content="{{ $short_description }}">
-    <meta property="og:image" content="{{ asset('assets/images/' . site('cover')) }}">
-    <meta name="robots" content="{{ site('robot') }}">
+            function s(e, t) {
+                var a = String.fromCharCode;
+                p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+                e = i.toDataURL();
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
 
-    <link rel="preload" href="/finatex-next.vercel.app/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2" as="font"
-        crossorigin="" type="font/woff2">
-    <link rel="preload" as="image"
-        imagesrcset="/finatex-next.vercel.app/_next/images/LogoWhite.png&w=1920&q=75 1x, /finatex-next.vercel.app/_next/images/LogoWhite.png&w=3840&q=75 2x"
-        fetchpriority="high">
-    <link rel="preload" as="image"
-        imagesrcset="/finatex-next.vercel.app/_next/images/slider/slider6.png&w=3840&q=75 1x" fetchpriority="high">
-    <link rel="stylesheet" href="/finatex-next.vercel.app/_next/static/css/82b6793241c718d6.css" crossorigin=""
-        data-precedence="next">
-    <link rel="stylesheet" href="/finatex-next.vercel.app/_next/static/css/6a06c721d3d9652c.css" crossorigin=""
-        data-precedence="next">
-    <link rel="stylesheet" href="/finatex-next.vercel.app/_next/static/css/73c00cd95dc66651.css" crossorigin=""
-        data-precedence="next">
-    <link rel="stylesheet" href="/finatex-next.vercel.app/_next/static/css/4df78f2cd73d6b26.css" crossorigin=""
-        data-precedence="next">
-
-
-    <meta name="next-size-adjust">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                    if (!p || !p.fillText) return !1;
+                    switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                        case "flag":
+                            return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([
+                                55356, 56826, 55356, 56819
+                            ], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418,
+                                56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447
+                            ], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203,
+                                56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447
+                            ]);
+                        case "emoji":
+                            return !s([10084, 65039, 8205, 55357, 56613], [10084, 65039, 8203, 55357, 56613])
+                    }
+                    return !1
+                }
+                (o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
+                    .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
+                .readyCallback = function() {
+                    t.DOMReady = !0
+                }, t.supports.everything || (n = function() {
+                    t.readyCallback()
+                }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
+                    1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                    "complete" === a.readyState && t.readyCallback()
+                })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n
+                    .wpemoji)))
+        }
+        (window, document, window._wpemojiSettings);
+    </script>
     <style type="text/css">
-        .rfm-marquee-container {
-            overflow-x: hidden;
-            display: flex;
-            flex-direction: row;
-            position: relative;
-            width: var(--width);
-            transform: var(--transform);
-        }
-
-        .rfm-marquee-container:hover div {
-            animation-play-state: var(--pause-on-hover);
-        }
-
-        .rfm-marquee-container:active div {
-            animation-play-state: var(--pause-on-click);
-        }
-
-        .rfm-overlay {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-        }
-
-        .rfm-overlay::before,
-        .rfm-overlay::after {
-            background: linear-gradient(to right, var(--gradient-color), rgba(255, 255, 255, 0));
-            content: "";
-            height: 100%;
-            position: absolute;
-            width: var(--gradient-width);
-            z-index: 2;
-            pointer-events: none;
-            touch-action: none;
-        }
-
-        .rfm-overlay::after {
-            right: 0;
-            top: 0;
-            transform: rotateZ(180deg);
-        }
-
-        .rfm-overlay::before {
-            left: 0;
-            top: 0;
-        }
-
-        .rfm-marquee {
-            flex: 0 0 auto;
-            min-width: var(--min-width);
-            z-index: 1;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
-            animation-play-state: var(--play);
-            animation-delay: var(--delay);
-            animation-direction: var(--direction);
-        }
-
-        @keyframes scroll {
-            0% {
-                transform: translateX(0%);
-            }
-
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-
-        .rfm-initial-child-container {
-            flex: 0 0 auto;
-            display: flex;
-            min-width: auto;
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .rfm-child {
-            transform: var(--transform);
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
         }
     </style>
-
-    <style>
-        .fixed {
-            position: fixed;
-        }
-
-        .bottom-0 {
-            bottom: 0px;
-        }
-
-        .right-0 {
-            right: 0px;
-        }
-
-        .left-0 {
-            left: 0px;
-        }
-
-        .z-50 {
-            z-index: 50;
-        }
-
-        .mb-5 {
-            margin-bottom: 1.25rem;
-        }
-
-        .w-10 {
-            width: 2.5rem;
-        }
-
-        .h-10 {
-            height: 2.5rem;
-        }
-
-        .animated-image {
-            animation: growAnimation 3s infinite;
-
-        }
-
-        .shadow {
-            --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-            --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-        }
-
-        .mr-2 {
-            margin-right: 0.5rem;
+    <link rel='stylesheet' id='bdt-uikit-css'
+        href='temp2/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikitcf1bcf1bcf1b.css?ver=3.2'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='element-pack-site-css'
+        href='temp2/wp-content/plugins/bdthemes-element-pack-lite/assets/css/element-pack-siteb12bb12bb12b.css?ver=3.1.1'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='prime-slider-site-css'
+        href='temp2/wp-content/plugins/bdthemes-prime-slider-lite/assets/css/prime-slider-site0a100a100a10.css?ver=1.14.2'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css'
+        href='temp2/wp-includes/css/dist/block-library/style.min41a341a341a3.css?ver=5.8' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='template-kit-export-css'
+        href='temp2/wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min9f349f349f34.css?ver=1.0.20'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='hello-elementor-css'
+        href='temp2/wp-content/themes/hello-elementor/style.min806680668066.css?ver=2.4.1' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='hello-elementor-theme-style-css'
+        href='temp2/wp-content/themes/hello-elementor/theme.min806680668066.css?ver=2.4.1' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css'
+        href='temp2/wp-content/plugins/elementor/assets/css/frontend.min3d363d363d36.css?ver=3.3.1' type='text/css'
+        media='all' />
+    <style id='elementor-frontend-inline-css' type='text/css'>
+        @font-face {
+            font-family: eicons;
+            src: url(https://demo.moxcreative.com/kingsley/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);
+            src: url(https://demo.moxcreative.com/kingsley/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"), url(https://demo.moxcreative.com/kingsley/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"), url(https://demo.moxcreative.com/kingsley/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"), url(https://demo.moxcreative.com/kingsley/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"), url(https://demo.moxcreative.com/kingsley/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");
+            font-weight: 400;
+            font-style: normal
         }
     </style>
+    <link rel='stylesheet' id='elementor-post-6-css'
+        href='temp2/wp-content/uploads/sites/56/elementor/css/post-62bf42bf42bf4.css?ver=1627639092' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-css'
+        href='temp2/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb683b683b683.css?ver=5.12.0'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-pro-css'
+        href='temp2/wp-content/plugins/elementor-pro/assets/css/frontend.minee9aee9aee9a.css?ver=3.2.2' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='ooohboi-steroids-styles-css'
+        href='temp2/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/maindd81dd81dd81.css?ver=1.7.903052021'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='void-whmcse-css'
+        href='temp2/wp-content/plugins/void-elementor-whmcs-elements/assets/css/style41a341a341a3.css?ver=5.8'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-294-css'
+        href='temp2/wp-content/uploads/sites/56/elementor/css/post-29409f309f309f3.css?ver=1627733378' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-post-32-css'
+        href='temp2/wp-content/uploads/sites/56/elementor/css/post-322bf42bf42bf4.css?ver=1627639092' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-post-44-css'
+        href='temp2/wp-content/uploads/sites/56/elementor/css/post-442df62df62df6.css?ver=1627661472' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-ekiticons-css'
+        href='temp2/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons25b625b625b6.css?ver=2.3.5'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='ekit-widget-styles-css'
+        href='temp2/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles25b625b625b6.css?ver=2.3.5'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='ekit-responsive-css'
+        href='temp2/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive25b625b625b6.css?ver=2.3.5'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css'
+        href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CHeebo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CInter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.8'
+        type='text/css' media='all' />
+    <script type='text/javascript' src='temp2/wp-includes/js/jquery/jquery.minaf6caf6caf6c.js?ver=3.6.0'
+        id='jquery-core-js'></script>
+    <script type='text/javascript' src='temp2/wp-includes/js/jquery/jquery-migrate.mind617d617d617.js?ver=3.3.2'
+        id='jquery-migrate-js'></script>
+    <script type='text/javascript'
+        src='temp2/wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min9f349f349f34.js?ver=1.0.20'
+        id='template-kit-export-js'></script>
+    <link href="/fxcrptic/temp/wp-content/uploads/sites/56/elementor/thumbs/favicon.png" rel="shortcut icon" />
+    <script src="use.fontawesome.com/b1b5c74725.js"></script>
 
 </head>
 
-<body class="__className_aaf875" data-new-gr-c-s-check-loaded="14.1190.0" data-gr-ext-installed="">
-    <div class="bg-black overflow-x-hidden">
-        <header id="header" class="style-five style-six">
-            <div class="top-nav style-one bg-dark">
-                <div class="container flex items-center justify-between h-[44px]">
-                    <div class="left-block flex items-center">
-                        <div class="location flex items-center max-lg:hidden"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"
-                                class="text-white text-xl">
-                                <path
-                                    d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z">
-                                </path>
-                            </svg><span class="ml-2 caption1 text-white">{{ site('address') }}, {{ site('city') }},
-                                {{ site('state') }}, {{ site('country') }}</span></div>
-                        <div class="mail lg:ml-7 flex items-center"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"
-                                class="text-white text-xl">
-                                <path
-                                    d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z">
-                                </path>
-                            </svg><span class="ml-2 caption1 text-white">{{ site('email') }}</span></div>
-                    </div>
-                    <div class="right-block flex items-center gap-5">
-                        <div class="select-block-x relative">
-                            <select onchange="doGTranslate(this);"
-                                class="border-none outline-none text-white p-2 caption2">
-                                <option value="">Language</option>
-                                <option value="en|af">Afrikaans</option>
-                                <option value="en|sq">Albanian</option>
-                                <option value="en|ar">Arabic</option>
-                                <option value="en|hy">Armenian</option>
-                                <option value="en|az">Azerbaijani</option>
-                                <option value="en|eu">Basque</option>
-                                <option value="en|be">Belarusian</option>
-                                <option value="en|bg">Bulgarian</option>
-                                <option value="en|ca">Catalan</option>
-                                <option value="en|zh-CN">Chinese (Simplified)</option>
-                                <option value="en|zh-TW">Chinese (Traditional)</option>
-                                <option value="en|hr">Croatian</option>
-                                <option value="en|cs">Czech</option>
-                                <option value="en|da">Danish</option>
-                                <option value="en|nl">Dutch</option>
-                                <option value="en|en">English</option>
-                                <option value="en|et">Estonian</option>
-                                <option value="en|tl">Filipino</option>
-                                <option value="en|fi">Finnish</option>
-                                <option value="en|fr">French</option>
-                                <option value="en|gl">Galician</option>
-                                <option value="en|ka">Georgian</option>
-                                <option value="en|de">German</option>
-                                <option value="en|el">Greek</option>
-                                <option value="en|ht">Haitian Creole</option>
-                                <option value="en|iw">Hebrew</option>
-                                <option value="en|hi">Hindi</option>
-                                <option value="en|hu">Hungarian</option>
-                                <option value="en|is">Icelandic</option>
-                                <option value="en|id">Indonesian</option>
-                                <option value="en|ga">Irish</option>
-                                <option value="en|it">Italian</option>
-                                <option value="en|ja">Japanese</option>
-                                <option value="en|ko">Korean</option>
-                                <option value="en|lv">Latvian</option>
-                                <option value="en|lt">Lithuanian</option>
-                                <option value="en|mk">Macedonian</option>
-                                <option value="en|ms">Malay</option>
-                                <option value="en|mt">Maltese</option>
-                                <option value="en|no">Norwegian</option>
-                                <option value="en|fa">Persian</option>
-                                <option value="en|pl">Polish</option>
-                                <option value="en|pt">Portuguese</option>
-                                <option value="en|ro">Romanian</option>
-                                <option value="en|ru">Russian</option>
-                                <option value="en|sr">Serbian</option>
-                                <option value="en|sk">Slovak</option>
-                                <option value="en|sl">Slovenian</option>
-                                <option value="en|es">Spanish</option>
-                                <option value="en|sw">Swahili</option>
-                                <option value="en|sv">Swedish</option>
-                                <option value="en|th">Thai</option>
-                                <option value="en|tr">Turkish</option>
-                                <option value="en|uk">Ukrainian</option>
-                                <option value="en|ur">Urdu</option>
-                                <option value="en|vi">Vietnamese</option>
-                                <option value="en|cy">Welsh</option>
-                                <option value="en|yi">Yiddish</option>
-                            </select><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                fill="currentColor" viewBox="0 0 256 256" class="text-xs text-white icon -right-2">
-                                <path
-                                    d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z">
-                                </path>
-                            </svg>
-                            <div id="google_translate_element2"></div>
-                        </div>
-                    </div>
-                    <div class="line h-6 w-px bg-grey max-sm:hidden"> </div>
-                    <div class="list-social flex items-center gap-2.5 style-one max-sm:hidden"><a
-                            class="item rounded-full w-7 h-7 border-grey border-2 flex items-center justify-center"
-                            target="_blank" href="https://www.facebook.com/"><i
-                                class="icon-facebook text-sm"></i></a><a
-                            class="item rounded-full w-7 h-7 border-grey border-2 flex items-center justify-center"
-                            target="_blank" href="https://www.linkedin.com/"><i class="icon-in text-xs"></i></a><a
-                            class="item rounded-full w-7 h-7 border-grey border-2 flex items-center justify-center"
-                            target="_blank" href="https://www.twitter.com/"><i
-                                class="icon-twitter text-[10px]"></i></a><a
-                            class="item rounded-full w-7 h-7 border-grey border-2 flex items-center justify-center"
-                            target="_blank" href="https://www.instagram.com/"><i
-                                class="icon-insta text-[10px]"></i></a><a
-                            class="item rounded-full w-7 h-7 border-grey border-2 flex items-center justify-center"
-                            target="_blank" href="https://www.youtube.com/"><i
-                                class="icon-youtube text-[10px]"></i></a></div>
-                </div>
-            </div>
-
-            <div class="header-menu style-six ">
-                <div class="container">
-                    <div class="header-main">
-                        <div class="main flex items-center justify-between lg:h-20 h-16 py-4 px-7 rounded-full"><a
-                                class="menu-left-block" href="/"><img alt="logo" fetchpriority="high"
-                                    width="1800" height="1600" decoding="async" data-nimg="1"
-                                    class="w-[149px] max-sm:w-[128px]" style="color:transparent"
-                                    srcset="/finatex-next.vercel.app/_next/images/LogoWhite.png&w=1920&q=75 1x, /finatex-next.vercel.app/_next/images/LogoWhite.png&w=3840&q=75 2x"
-                                    src="/finatex-next.vercel.app/_next/images/LogoWhite.png&w=3840&q=75"></a>
-                            <div class="menu-center-block h-full">
-                                <ul class="menu-nav flex items-center xl:gap-2 h-full">
-                                    <li
-                                        class="nav-item text-white h-full flex items-center justify-center home active">
-                                        <a class="nav-link text-title flex items-center gap-1"
-                                            href="/"><span>Home</span></a>
-                                    </li>
-                                    <li class="nav-item text-white h-full flex items-center justify-center "><a
-                                            class="nav-link text-title flex items-center gap-1"
-                                            href="{{ route('about') }}"><span>About</span></a>
-
-                                    </li>
-                                    <li class="nav-item text-white h-full flex items-center justify-center "><a
-                                            class="nav-link text-title flex items-center gap-1"
-                                            href="{{ route('service') }}"><span>Services</span></a>
-
-                                    </li>
-                                    <li class="nav-item text-white h-full flex items-center justify-center "><a
-                                            class="nav-link text-title flex items-center gap-1"
-                                            href="{{ route('trades') }}"><span>Live Trades</span></a>
-
-                                    </li>
-                                    <li class="nav-item text-white h-full flex items-center justify-center "><a
-                                            class="nav-link text-title flex items-center gap-1"
-                                            href="{{ route('pricing') }}"><span>Pricing</span></a>
-
-                                    </li>
-                                    <li class="nav-item text-white h-full flex items-center justify-center "><a
-                                            class="nav-link text-title flex items-center gap-1"
-                                            href="{{ route('faqs') }}"><span>FAQs</span></a>
-
-                                    </li>
-
-                                    <li class="nav-item text-white h-full flex items-center justify-center "><a
-                                            class="nav-link text-title flex items-center gap-1"
-                                            href="{{ route('contact') }}"><span>Contact</span></a>
-
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="menu-right-block flex items-center"><a
-                                    class="max-lg:hidden button-main bg-orange text-white rounded-full hover:bg-black"
-                                    href="{{ route('user.register') }}">Get Started</a>
-                                <div class="menu-humburger hidden pointer" onclick="openNav()"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                        fill="currentColor" viewBox="0 0 256 256" class="text-2xl text-white">
-                                        <path
-                                            d="M228,128a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,128ZM40,76H216a12,12,0,0,0,0-24H40a12,12,0,0,0,0,24ZM216,180H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Z">
-                                        </path>
-                                    </svg></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="menu-mobile-block" class="false">
-                    <div class="menu-mobile-main text-white">
-                        <div class="container">
-                            <div class="close-btn py-5 flex items-center justify-end" onclick="closeNav()"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                    fill="currentColor" viewBox="0 0 256 256" class="text-white text-2xl">
-                                    <path
-                                        d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z">
-                                    </path>
-                                </svg></div>
-                            <ul class="menu-nav-mobile h-full pt-1 pb-1">
-                                <li class="nav-item-mobile h-full flex-column gap-2 pt-2 pb-2 pl-3 pr-3 pointer home ">
-                                    <a class="nav-link-mobile flex items-center justify-between" href="/"><span
-                                            class="body2 font-semibold">Home </span></a>
-
-                                </li>
-                                <li
-                                    class="nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer about ">
-                                    <a class="nav-link-mobile flex items-center justify-between"
-                                        href="{{ route('about') }}"><span class="body2 font-semibold">About
-                                        </span></a>
-
-                                </li>
-                                <li
-                                    class="nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer services ">
-                                    <a class="nav-link-mobile flex items-center justify-between"
-                                        href="{{ route('service') }}"><span class="body2 font-semibold">Services
-                                        </span></a>
-
-                                </li>
-                                <li class="nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer case ">
-                                    <a class="nav-link-mobile flex items-center justify-between"
-                                        href="{{ route('trades') }}"><span class="body2 font-semibold">Live Trades
-                                        </span></a>
-
-                                </li>
-                                <li class="nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer case ">
-                                    <a class="nav-link-mobile flex items-center justify-between"
-                                        href="{{ route('pricing') }}"><span class="body2 font-semibold">Pricing
-                                        </span></a>
-
-                                </li>
-                                <li
-                                    class="nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer pages ">
-                                    <a class="nav-link-mobile flex items-center justify-between"
-                                        href="{{ route('faqs') }}"><span class="body2 font-semibold">FAQs </span></a>
-
-                                </li>
-
-                                <li
-                                    class="nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer contact ">
-                                    <a class="nav-link-mobile flex items-center justify-between"
-                                        href="{{ route('contact') }}"><span class="body2 font-semibold">Contact
-                                        </span></a>
-
-                                </li>
-
-                                <li
-                                    class="nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer contact ">
-                                    <a class="button-main bg-orange text-white rounded-full hover:bg-black"
-                                        href="{{ route('user.login') }}">Member Area</a>
-
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-
-
-        @yield('contents')
-
-        <footer id="footer" class="style-six">
-            <div class="style-one">
-                <div class="footer-block bg-dark pt-[60px]">
-                    <div class="container">
-                        <div class="flex max-lg:flex-col max-lg:items-start gap-y-10 pb-10">
-                            <div class="lg:w-1/4">
-                                <div class="footer-company-infor flex flex-col justify-between gap-5"><img
-                                        alt="Logo" loading="lazy" width="4000" height="3000"
-                                        decoding="async" data-nimg="1" class="footer-logo w-[145px]"
-                                        style="color:transparent"
-                                        srcset="/finatex-next.vercel.app/_next/images/LogoWhite.png&w=3840&q=75 1x"
-                                        src="/finatex-next.vercel.app/_next/images/LogoWhite.png&w=3840&q=75">
-                                    <div class="text caption1 text-white">We are a diversified company specialized in
-                                        providing comprehensive cryptocurrency solutions for individuals and businesses.
-                                    </div>
-                                    <div class="list-social flex items-center gap-2.5 style-one"><a
-                                            class="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center"
-                                            target="_blank" href="https://www.facebook.com/"><i
-                                                class="icon-facebook text-sm"></i></a><a
-                                            class="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center"
-                                            target="_blank" href="https://www.linkedin.com/"><i
-                                                class="icon-in text-sm"></i></a><a
-                                            class="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center"
-                                            target="_blank" href="https://www.twitter.com/"><i
-                                                class="icon-twitter text-xs"></i></a><a
-                                            class="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center"
-                                            target="_blank" href="https://www.instagram.com/"><i
-                                                class="icon-insta text-xs"></i></a><a
-                                            class="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center"
-                                            target="_blank" href="https://www.youtube.com/"><i
-                                                class="icon-youtube text-xs"></i></a></div>
-                                </div>
-                            </div>
-                            <div class="lg:w-1/2">
-                                <div class="footer-navigate flex items-center justify-center gap-20">
-                                    <div class="footer-nav-item">
-                                        <div class="item-heading text-button-sm text-white">Quick Links</div>
-                                        <ul class="list-nav mt-1">
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="{{ route('about') }}">About us</a></li>
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="{{ route('service') }}">Services</a></li>
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="{{ route('pricing') }}">Pricing</a></li>
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="{{ route('contact') }}">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="footer-nav-item max-sm:hidden">
-                                        <div class="item-heading text-button-sm text-white">Pages</div>
-                                        <ul class="list-nav mt-1">
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="{{ route('faqs') }}">FAQs</a></li>
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="{{ route('user.register') }}">Get Started</a></li>
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="{{ route('user.login') }}">Login Member Area</a></li>
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="{{ route('trades') }}">Live Trades</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="footer-nav-item">
-                                        <div class="item-heading text-button-sm text-white">Knowledge</div>
-                                        <ul class="list-nav mt-1">
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="https://binance.com/" target="_blank">Binance</a></li>
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="https://blockchain.com/" target="_blank">Blockchain</a></li>
-                                            <li class="mt-3"><a
-                                                    class="caption1 has-line-before line-white text-surface hover-underline"
-                                                    href="https://coinmarketcap.com/" target="_blank">Market</a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lg:w-1/4">
-                                <div class="company-contact">
-                                    <div class="heading text-button-sm text-white">Newsletter</div>
-                                    <div class="mt-3 flex items-center"><svg width="36" height="36"
-                                            viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M26.43 16.1254C25.785 16.1254 25.275 15.6004 25.275 14.9704C25.275 14.4154 24.72 13.2604 23.79 12.2554C22.875 11.2804 21.87 10.7104 21.03 10.7104C20.385 10.7104 19.875 10.1854 19.875 9.55539C19.875 8.92539 20.4 8.40039 21.03 8.40039C22.53 8.40039 24.105 9.21039 25.485 10.6654C26.775 12.0304 27.6 13.7254 27.6 14.9554C27.6 15.6004 27.075 16.1254 26.43 16.1254Z"
-                                                fill="#C1D8FF"></path>
-                                            <path
-                                                d="M31.8446 16.125C31.1996 16.125 30.6896 15.6 30.6896 14.97C30.6896 9.645 26.3546 5.325 21.0446 5.325C20.3996 5.325 19.8896 4.8 19.8896 4.17C19.8896 3.54 20.3996 3 21.0296 3C27.6296 3 32.9996 8.37 32.9996 14.97C32.9996 15.6 32.4746 16.125 31.8446 16.125Z"
-                                                fill="#C1D8FF"></path>
-                                            <path
-                                                d="M17.685 21.315L12.78 26.22C12.24 25.74 11.715 25.245 11.205 24.735C9.66 23.175 8.265 21.54 7.02 19.83C5.79 18.12 4.8 16.41 4.08 14.715C3.36 13.005 3 11.37 3 9.81C3 8.79 3.18 7.815 3.54 6.915C3.9 6 4.47 5.16 5.265 4.41C6.225 3.465 7.275 3 8.385 3C8.805 3 9.225 3.09 9.6 3.27C9.99 3.45 10.335 3.72 10.605 4.11L14.085 9.015C14.355 9.39 14.55 9.735 14.685 10.065C14.82 10.38 14.895 10.695 14.895 10.98C14.895 11.34 14.79 11.7 14.58 12.045C14.385 12.39 14.1 12.75 13.74 13.11L12.6 14.295C12.435 14.46 12.36 14.655 12.36 14.895C12.36 15.015 12.375 15.12 12.405 15.24C12.45 15.36 12.495 15.45 12.525 15.54C12.795 16.035 13.26 16.68 13.92 17.46C14.595 18.24 15.315 19.035 16.095 19.83C16.635 20.355 17.16 20.865 17.685 21.315Z"
-                                                fill="#C1D8FF"></path>
-                                            <path
-                                                d="M32.9554 27.4955C32.9554 27.9155 32.8804 28.3505 32.7304 28.7705C32.6854 28.8905 32.6404 29.0105 32.5804 29.1305C32.3254 29.6705 31.9954 30.1805 31.5604 30.6605C30.8254 31.4705 30.0154 32.0555 29.1004 32.4305C29.0854 32.4305 29.0704 32.4455 29.0554 32.4455C28.1704 32.8055 27.2104 33.0005 26.1754 33.0005C24.6454 33.0005 23.0104 32.6405 21.2854 31.9055C19.5604 31.1705 17.8354 30.1805 16.1254 28.9355C15.5404 28.5005 14.9554 28.0655 14.4004 27.6005L19.3054 22.6955C19.7254 23.0105 20.1004 23.2505 20.4154 23.4155C20.4904 23.4455 20.5804 23.4905 20.6854 23.5355C20.8054 23.5805 20.9254 23.5955 21.0604 23.5955C21.3154 23.5955 21.5104 23.5055 21.6754 23.3405L22.8154 22.2155C23.1904 21.8405 23.5504 21.5555 23.8954 21.3755C24.2404 21.1655 24.5854 21.0605 24.9604 21.0605C25.2454 21.0605 25.5454 21.1205 25.8754 21.2555C26.2054 21.3905 26.5504 21.5855 26.9254 21.8405L31.8904 25.3655C32.2804 25.6355 32.5504 25.9505 32.7154 26.3255C32.8654 26.7005 32.9554 27.0755 32.9554 27.4955Z"
-                                                fill="#2868D8"></path>
-                                        </svg>
-                                        <div class="text ml-4">
-                                            <div class="caption2 text-surface">Need help? 24/7 </div>
-                                            <div class="fw-700 text-white mt-1">{{ site('phone') }}</div>
-                                        </div>
-                                    </div>
-                                    <div class="locate mt-3 flex items-center"><svg xmlns="http://www.w3.org/2000/svg"
-                                            width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"
-                                            class="text-surface">
-                                            <path
-                                                d="M128,66a38,38,0,1,0,38,38A38,38,0,0,0,128,66Zm0,64a26,26,0,1,1,26-26A26,26,0,0,1,128,130Zm0-112a86.1,86.1,0,0,0-86,86c0,30.91,14.34,63.74,41.47,94.94a252.32,252.32,0,0,0,41.09,38,6,6,0,0,0,6.88,0,252.32,252.32,0,0,0,41.09-38c27.13-31.2,41.47-64,41.47-94.94A86.1,86.1,0,0,0,128,18Zm0,206.51C113,212.93,54,163.62,54,104a74,74,0,0,1,148,0C202,163.62,143,212.93,128,224.51Z">
-                                            </path>
-                                        </svg>
-                                        <div class="caption1 text-surface ml-2">{{ site('address') }},
-                                            {{ site('city') }}, {{ site('state') }},
-                                            {{ site('country') }}</div>
-                                    </div>
-                                    <form
-                                        class="send-block mt-5 flex items-center h-[46px] rounded-lg overflow-hidden">
-                                        <input class="caption1 text-secondary h-full w-full pr-4 pl-3" type="text"
-                                            placeholder="Your email address" required=""><button
-                                            class="flex items-center justify-center w-[46px] h-[46px] bg-blue flex-shrink-0"><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                                fill="currentColor" viewBox="0 0 256 256" class="text-white">
-                                                <path
-                                                    d="M227.32,28.68a16,16,0,0,0-15.66-4.08l-.15,0L19.57,82.84a16,16,0,0,0-2.42,29.84l85.62,40.55,40.55,85.62A15.86,15.86,0,0,0,157.74,248q.69,0,1.38-.06a15.88,15.88,0,0,0,14-11.51l58.2-191.94c0-.05,0-.1,0-.15A16,16,0,0,0,227.32,28.68ZM157.83,231.85l-.05.14L118.42,148.9l47.24-47.25a8,8,0,0,0-11.31-11.31L107.1,137.58,24,98.22l.14,0L216,40Z">
-                                                </path>
-                                            </svg></button>
-                                    </form>
+<body
+    class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-294 elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-294">
+    <div data-elementor-type="header" data-elementor-id="32" class="elementor elementor-32 elementor-location-header"
+        data-elementor-settings="[]">
+        <div class="elementor-section-wrap">
+            <section
+                class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-3339895 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="3339895" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_opacity_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_opacity_range&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:100,&quot;end&quot;:100}},&quot;sticky&quot;:&quot;top&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;background_motion_fx_opacity_direction&quot;:&quot;out-in&quot;,&quot;background_motion_fx_opacity_level&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-cad0651"
+                        data-id="cad0651" data-element_type="column"
+                        data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-2747cbb elementor-widget elementor-widget-image"
+                                data-id="2747cbb" data-element_type="widget"
+                                data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <a href="/">
+                                        <img src="/fxcrptic/images/logo.png" title="" alt="Logo_kingsley" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="border-line"></div>
-                        <div class="footer-bottom flex items-center justify-between pt-3 pb-3">
-                            <div class="left-block flex items-center">
-                                <div class="copy-right text-surface caption1">©2024 {{ site('name') }}. All Rights
-                                    Reserved.</div>
+                    </div>
+                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1c994e1"
+                        data-id="1c994e1" data-element_type="column"
+                        data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-90610ba elementor-nav-menu__align-right elementor-nav-menu--indicator-chevron elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
+                                data-id="90610ba" data-element_type="widget"
+                                data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="nav-menu.default">
+                                <div class="elementor-widget-container">
+                                    <nav role="navigation"
+                                        class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+                                        <ul id="menu-1-90610ba" class="elementor-nav-menu">
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-15">
+                                                <a href="/" aria-current="page"
+                                                    class="elementor-item elementor-item-active">Home
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16">
+                                                <a href="indexe47e.php" class="elementor-item">Company
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18">
+                                                <a href="indexccbb.php" class="elementor-item">Services
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
+                                                <a href="index88fd.php" class="elementor-item">Investment
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
+                                                <a href="/login" class="elementor-item">Login
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <div class="elementor-menu-toggle" role="button" tabindex="0"
+                                        aria-label="Menu Toggle" aria-expanded="false">
+                                        <i class="fa fa-navicon" aria-hidden="true">
+                                        </i>
+                                        <span class="elementor-screen-only">Menu</span>
+                                    </div>
+                                    <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
+                                        role="navigation" aria-hidden="true">
+                                        <ul id="menu-2-90610ba" class="elementor-nav-menu">
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-15">
+                                                <a href="/" aria-current="page"
+                                                    class="elementor-item elementor-item-active">Home
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16">
+                                                <a href="about.php" class="elementor-item">Company
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18">
+                                                <a href="/service" class="elementor-item">Services
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
+                                                <a href="/pricing" class="elementor-item">Investment
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
+                                                <a href="/login" class="elementor-item elementor-item-anchor">Login
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
                             </div>
-                            <div class="nav-link flex items-center gap-2.5"><a
-                                    class="text-surface caption1 hover-underline" href="{{ route('tos') }}">Terms Of
-                                    Services</a><span class="text-surface caption1">|</span><a
-                                    class="text-surface caption1 hover-underline"
-                                    href="{{ route('privacy') }}">Privacy
-                                    Policy</a>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4e9d722 elementor-hidden-phone"
+                        data-id="4e9d722" data-element_type="column"
+                        data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-d3247ca elementor-align-right elementor-widget elementor-widget-button"
+                                data-id="d3247ca" data-element_type="widget"
+                                data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a href="/register"
+                                            class="elementor-button-link elementor-button elementor-size-md elementor-animation-wobble-horizontal"
+                                            role="button">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Signup
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-        <a href="https://wa.me/31685018131" target="_blank" class="fixed bottom-0 left-0 z-50 mb-5">
-            <img src="/whatsapp.png" alt="" class="w-10 h-10 animated-image shadow mr-2">
-        </a>
-
-
+            </section>
+        </div>
     </div>
 
 
+    @yield('contents')
 
-    <script type="text/javascript">
-        function googleTranslateElementInit2() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                autoDisplay: false
-            }, 'google_translate_element2');
+    <section
+        class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-40a8fc9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+        data-id="40a8fc9" data-element_type="section"
+        data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dc7636b"
+                data-id="dc7636b" data-element_type="column"
+                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <section
+                        class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-6d8407c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="6d8407c" data-element_type="section"
+                        data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b746e23"
+                                data-id="b746e23" data-element_type="column"
+                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-5341b01 elementor-widget elementor-widget-image"
+                                        data-id="5341b01" data-element_type="widget"
+                                        data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="image.default">
+                                        <div class="elementor-widget-container">
+                                            <a href="/">
+                                                <img src="/fxcrptic/images/logo3.png" title="Logo_kingsley"
+                                                    alt="Logo_kingsley" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-7eb0758 ob-harakiri-inherit elementor-widget elementor-widget-text-editor"
+                                        data-id="7eb0758" data-element_type="widget"
+                                        data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="text-editor.default">
+                                        <div class="elementor-widget-container">
+                                            <p>Comprehensive financial advice and investment services that are tailored
+                                                to meet your individual needs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0e091ae"
+                                data-id="0e091ae" data-element_type="column"
+                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-745c90a ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                        data-id="745c90a" data-element_type="widget"
+                                        data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h4 class="elementor-heading-title elementor-size-default">Company
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-d5f6ddb elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                        data-id="d5f6ddb" data-element_type="widget"
+                                        data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="icon-list.default">
+                                        <div class="elementor-widget-container">
+                                            <ul class="elementor-icon-list-items">
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="/about">
+                                                        <span class="elementor-icon-list-text">About Us
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="/services">
+                                                        <span class="elementor-icon-list-text">Services
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="/contact">
+                                                        <span class="elementor-icon-list-text">Contact Us
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="/register">
+                                                        <span class="elementor-icon-list-text">Become a Member
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2f43327"
+                                data-id="2f43327" data-element_type="column"
+                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-53a842c ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                        data-id="53a842c" data-element_type="widget"
+                                        data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h4 class="elementor-heading-title elementor-size-default">Support
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-0c2d71a elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                        data-id="0c2d71a" data-element_type="widget"
+                                        data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="icon-list.default">
+                                        <div class="elementor-widget-container">
+                                            <ul class="elementor-icon-list-items">
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="/privacy">
+                                                        <span class="elementor-icon-list-text">Privacy Policy
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="/tos">
+                                                        <span class="elementor-icon-list-text">Terms of Use
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="/pricing">
+                                                        <span class="elementor-icon-list-text">Investment plans
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="/register">
+                                                        <span class="elementor-icon-list-text">Membership Portal
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-29fc0be"
+                                data-id="29fc0be" data-element_type="column"
+                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-b6386cd ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                        data-id="b6386cd" data-element_type="widget"
+                                        data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h4 class="elementor-heading-title elementor-size-default">Language
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-0361105 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                        data-id="0361105" data-element_type="widget"
+                                        data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <span class="elementor-heading-title elementor-size-default">We support
+                                                your local languages. Change language below.
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <style type="text/css">
+                                        <!--
+                                        a.gflag {
+                                            vertical-align: middle;
+                                            font-size: 16px;
+                                            padding: 1px 0;
+                                            background-repeat: no-repeat;
+                                            background-image: url(//gtranslate.net/flags/16.png);
+                                        }
+
+                                        a.gflag img {
+                                            border: 0;
+                                        }
+
+                                        a.gflag:hover {
+                                            background-image: url(//gtranslate.net/flags/16a.png);
+                                        }
+
+                                        #goog-gt-tt {
+                                            display: none !important;
+                                        }
+
+                                        .goog-te-banner-frame {
+                                            display: none !important;
+                                        }
+
+                                        .goog-te-menu-value:hover {
+                                            text-decoration: none !important;
+                                        }
+
+                                        body {
+                                            top: 0 !important;
+                                        }
+
+                                        #google_translate_element2 {
+                                            display: none !important;
+                                        }
+                                        -->
+                                    </style>
+
+                                    <br /><select onchange="doGTranslate(this);">
+                                        <option value="">Choose Language</option>
+                                        <option value="en|af">Afrikaans</option>
+                                        <option value="en|sq">Albanian</option>
+                                        <option value="en|ar">Arabic</option>
+                                        <option value="en|hy">Armenian</option>
+                                        <option value="en|az">Azerbaijani</option>
+                                        <option value="en|eu">Basque</option>
+                                        <option value="en|be">Belarusian</option>
+                                        <option value="en|bg">Bulgarian</option>
+                                        <option value="en|ca">Catalan</option>
+                                        <option value="en|zh-CN">Chinese (Simplified)</option>
+                                        <option value="en|zh-TW">Chinese (Traditional)</option>
+                                        <option value="en|hr">Croatian</option>
+                                        <option value="en|cs">Czech</option>
+                                        <option value="en|da">Danish</option>
+                                        <option value="en|nl">Dutch</option>
+                                        <option value="en|en">English</option>
+                                        <option value="en|et">Estonian</option>
+                                        <option value="en|tl">Filipino</option>
+                                        <option value="en|fi">Finnish</option>
+                                        <option value="en|fr">French</option>
+                                        <option value="en|gl">Galician</option>
+                                        <option value="en|ka">Georgian</option>
+                                        <option value="en|de">German</option>
+                                        <option value="en|el">Greek</option>
+                                        <option value="en|ht">Haitian Creole</option>
+                                        <option value="en|iw">Hebrew</option>
+                                        <option value="en|hi">Hindi</option>
+                                        <option value="en|hu">Hungarian</option>
+                                        <option value="en|is">Icelandic</option>
+                                        <option value="en|id">Indonesian</option>
+                                        <option value="en|ga">Irish</option>
+                                        <option value="en|it">Italian</option>
+                                        <option value="en|ja">Japanese</option>
+                                        <option value="en|ko">Korean</option>
+                                        <option value="en|lv">Latvian</option>
+                                        <option value="en|lt">Lithuanian</option>
+                                        <option value="en|mk">Macedonian</option>
+                                        <option value="en|ms">Malay</option>
+                                        <option value="en|mt">Maltese</option>
+                                        <option value="en|no">Norwegian</option>
+                                        <option value="en|fa">Persian</option>
+                                        <option value="en|pl">Polish</option>
+                                        <option value="en|pt">Portuguese</option>
+                                        <option value="en|ro">Romanian</option>
+                                        <option value="en|ru">Russian</option>
+                                        <option value="en|sr">Serbian</option>
+                                        <option value="en|sk">Slovak</option>
+                                        <option value="en|sl">Slovenian</option>
+                                        <option value="en|es">Spanish</option>
+                                        <option value="en|sw">Swahili</option>
+                                        <option value="en|sv">Swedish</option>
+                                        <option value="en|th">Thai</option>
+                                        <option value="en|tr">Turkish</option>
+                                        <option value="en|uk">Ukrainian</option>
+                                        <option value="en|ur">Urdu</option>
+                                        <option value="en|vi">Vietnamese</option>
+                                        <option value="en|cy">Welsh</option>
+                                        <option value="en|yi">Yiddish</option>
+                                    </select>
+                                    <div id="google_translate_element2"></div>
+                                    <script type="text/javascript">
+                                        function googleTranslateElementInit2() {
+                                            new google.translate.TranslateElement({
+                                                pageLanguage: 'en',
+                                                autoDisplay: false
+                                            }, 'google_translate_element2');
+                                        }
+                                    </script>
+                                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2">
+                                    </script>
+
+
+                                    <script type="text/javascript">
+                                        /* <![CDATA[ */
+                                        eval(function(p, a, c, k, e, r) {
+                                            e = function(c) {
+                                                return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c
+                                                    .toString(36))
+                                            };
+                                            if (!''.replace(/^/, String)) {
+                                                while (c--) r[e(c)] = k[c] || e(c);
+                                                k = [function(e) {
+                                                    return r[e]
+                                                }];
+                                                e = function() {
+                                                    return '\\w+'
+                                                };
+                                                c = 1
+                                            };
+                                            while (c--)
+                                                if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+                                            return p
+                                        }('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',
+                                            43, 43,
+                                            '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'
+                                            .split('|'), 0, {}))
+                                        /* ]]> */
+                                    </script>
+
+                                </div>
+                            </div>
+                    </section>
+                    <section
+                        class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-1c52621 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="1c52621" data-element_type="section"
+                        data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f882133"
+                                data-id="f882133" data-element_type="column"
+                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-637ff97 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                        data-id="637ff97" data-element_type="widget"
+                                        data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <span class="elementor-heading-title elementor-size-default">Copyright ©
+                                                2022 Fxcryptic, All rights reserved.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-23fbef8"
+                                data-id="23fbef8" data-element_type="column"
+                                data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-3a7875f elementor-icon-list--layout-inline elementor-align-right elementor-tablet-align-center elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                        data-id="3a7875f" data-element_type="widget"
+                                        data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                        data-widget_type="icon-list.default">
+                                        <div class="elementor-widget-container">
+                                            <ul class="elementor-icon-list-items elementor-inline-items">
+                                                <li class="elementor-icon-list-item elementor-inline-item">
+                                                    <a href="/tos">
+                                                        <span class="elementor-icon-list-text">Term of Use
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item elementor-inline-item">
+                                                    <a href="/privacy">
+                                                        <span class="elementor-icon-list-text">Privacy Policy
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item elementor-inline-item">
+                                                    <a href="/fxcrptic/images/b9cert.jpg" target="_blank">
+                                                        <span class="elementor-icon-list-text">Certificate of
+                                                            Incorporation
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+    <link rel='stylesheet' id='e-animations-css'
+        href='/fxcrptic/temp/wp-content/plugins/elementor/assets/lib/animations/animations.min3d363d363d36.css?ver=3.3.1'
+        type='text/css' media='all' />
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/themes/hello-elementor/assets/js/hello-frontend.min8a548a548a54.js?ver=1.0.0'
+        id='hello-theme-frontend-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/ooohboi-steroids-for-elementor/assets/js/ooohboi-steroids-min706770677067.js?ver=1.7.903082021b'
+        id='ooohboi-steroids-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script25b625b625b6.js?ver=2.3.5'
+        id='elementskit-framework-js-frontend-js'></script>
+    <script type='text/javascript' id='elementskit-framework-js-frontend-js-after'>
+        var elementskit = {
+            resturl: 'https://demo.moxcreative.com/kingsley/wp-json/elementskit/v1/',
         }
     </script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2">
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts25b625b625b6.js?ver=2.3.5'
+        id='ekit-widget-scripts-js'></script>
+    <script type='text/javascript' src='/fxcrptic/temp/wp-includes/js/wp-embed.min41a341a341a3.js?ver=5.8' id='wp-embed-js'>
     </script>
-
-
-    <script type="text/javascript">
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.minf269f269f269.js?ver=1.0.1'
+        id='smartmenus-js'></script>
+    <script type='text/javascript' src='/fxcrptic/temp/wp-includes/js/imagesloaded.mineda1eda1eda1.js?ver=4.1.4'
+        id='imagesloaded-js'></script>
+    <script type='text/javascript' id='bdt-uikit-js-extra'>
         /* <![CDATA[ */
-        eval(function(p, a, c, k, e, r) {
-            e = function(c) {
-                return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c
-                    .toString(36))
-            };
-            if (!''.replace(/^/, String)) {
-                while (c--) r[e(c)] = k[c] || e(c);
-                k = [function(e) {
-                    return r[e]
-                }];
-                e = function() {
-                    return '\\w+'
-                };
-                c = 1
-            };
-            while (c--)
-                if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
-            return p
-        }('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',
-            43, 43,
-            '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'
-            .split('|'), 0, {}))
+        var element_pack_ajax_login_config = {
+            "ajaxurl": "https:\/\/demo.moxcreative.com\/kingsley\/wp-admin\/admin-ajax.php",
+            "loadingmessage": "Sending user info, please wait..."
+        };
+        var ElementPackConfig = {
+            "ajaxurl": "https:\/\/demo.moxcreative.com\/kingsley\/wp-admin\/admin-ajax.php",
+            "nonce": "d68659b1a2",
+            "contact_form": {
+                "sending_msg": "Sending message please wait...",
+                "captcha_nd": "Invisible captcha not defined!",
+                "captcha_nr": "Could not get invisible captcha response!"
+            },
+            "elements_data": {
+                "sections": [],
+                "columns": [],
+                "widgets": []
+            }
+        };
         /* ]]> */
     </script>
-
-    <script>
-        function openNav() {
-            document.getElementById("menu-mobile-block").classList.toggle("open")
-        }
-
-        function closeNav() {
-            document.getElementById("menu-mobile-block").classList.toggle("open")
-        }
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/bdthemes-element-pack-lite/assets/js/bdt-uikit.minb12bb12bb12b.js?ver=3.1.1'
+        id='bdt-uikit-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor/assets/js/webpack.runtime.min3d363d363d36.js?ver=3.3.1'
+        id='elementor-webpack-runtime-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor/assets/js/frontend-modules.min3d363d363d36.js?ver=3.3.1'
+        id='elementor-frontend-modules-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da05da05da.js?ver=4.0.2'
+        id='elementor-waypoints-js'></script>
+    <script type='text/javascript' src='/fxcrptic/temp/wp-includes/js/jquery/ui/core.min35d035d035d0.js?ver=1.12.1'
+        id='jquery-ui-core-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f548f548f5.js?ver=5.3.6'
+        id='swiper-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor/assets/lib/share-link/share-link.min3d363d363d36.js?ver=3.3.1'
+        id='share-link-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288a288a288.js?ver=4.8.1'
+        id='elementor-dialog-js'></script>
+    <script type='text/javascript' id='elementor-frontend-js-extra'>
+        /* <![CDATA[ */
+        var PaModulesSettings = {
+            "equalHeight_url": "https:\/\/demo.moxcreative.com\/kingsley\/wp-content\/plugins\/premium-addons-for-elementor\/assets\/frontend\/min-js\/premium-eq-height.min.js"
+        };
+        /* ]]> */
     </script>
-    <script>
-        const modalBtn = document.querySelector('.modal-video-main')
-
-        function openVideo() {
-            modalBtn.classList.toggle('open')
-        }
+    <script type='text/javascript' id='elementor-frontend-js-before'>
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile",
+                        "value": 767,
+                        "direction": "max",
+                        "is_enabled": true,
+                        "default_value": 767
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Extra",
+                        "value": 880,
+                        "direction": "max",
+                        "is_enabled": false,
+                        "default_value": 880
+                    },
+                    "tablet": {
+                        "label": "Tablet",
+                        "value": 1024,
+                        "direction": "max",
+                        "is_enabled": true,
+                        "default_value": 1024
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Extra",
+                        "value": 1365,
+                        "direction": "max",
+                        "is_enabled": false,
+                        "default_value": 1365
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1620,
+                        "direction": "max",
+                        "is_enabled": false,
+                        "default_value": 1620
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "direction": "min",
+                        "is_enabled": false,
+                        "default_value": 2400
+                    }
+                }
+            },
+            "version": "3.3.1",
+            "is_static": false,
+            "experimentalFeatures": {
+                "e_dom_optimization": true,
+                "a11y_improvements": true,
+                "e_import_export": true,
+                "hello-theme-header-footer": true,
+                "landing-pages": true,
+                "elements-color-picker": true,
+                "admin-top-bar": true,
+                "form-submissions": true
+            },
+            "urls": {
+                "assets": "https:\/\/demo.moxcreative.com\/kingsley\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description",
+                "hello_header_logo_type": "title",
+                "hello_header_menu_layout": "horizontal",
+                "hello_footer_logo_type": "logo"
+            },
+            "post": {
+                "id": 656,
+                "title": "Homepage%20%E2%80%93%20Kingsley%20Finance",
+                "excerpt": "",
+                "featuredImage": "https:\/\/demo.moxcreative.com\/kingsley\/wp-content\/uploads\/sites\/56\/2021\/08\/Home-178x1024.jpg"
+            }
+        };
     </script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor/assets/js/frontend.min3d363d363d36.js?ver=3.3.1'
+        id='elementor-frontend-js'></script>
+    <script type='text/javascript' id='elementor-frontend-js-after'>
+        window.scopes_array = {};
+        window.backend = 0;
+        jQuery(window).on("elementor/frontend/init", function() {
+            elementorFrontend.hooks.addAction("frontend/element_ready/section", function($scope, $) {
+                if ("undefined" == typeof $scope) {
+                    return;
+                }
+                if ($scope.hasClass("premium-equal-height-yes")) {
+                    var id = $scope.data("id");
+                    window.scopes_array[id] = $scope;
+                }
+                if (elementorFrontend.isEditMode()) {
+                    var url = PaModulesSettings.equalHeight_url;
+                    jQuery.cachedAssets = function(url, options) {
+                        // Allow user to set any option except for dataType, cache, and url.
+                        options = jQuery.extend(options || {}, {
+                            dataType: "script",
+                            cache: true,
+                            url: url
+                        });
+                        // Return the jqXHR object so we can chain callbacks.
+                        return jQuery.ajax(options);
+                    };
+                    jQuery.cachedAssets(url);
+                    window.backend = 1;
+                }
+            });
+        });
+        jQuery(document).ready(function() {
+            if (jQuery.find(".premium-equal-height-yes").length < 1) {
+                return;
+            }
+            var url = PaModulesSettings.equalHeight_url;
+            jQuery.cachedAssets = function(url, options) {
+                // Allow user to set any option except for dataType, cache, and url.
+                options = jQuery.extend(options || {}, {
+                    dataType: "script",
+                    cache: true,
+                    url: url
+                });
+                // Return the jqXHR object so we can chain callbacks.
+                return jQuery.ajax(options);
+            };
+            jQuery.cachedAssets(url);
+        });
+    </script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/bdthemes-element-pack-lite/assets/js/element-pack-site.minb12bb12bb12b.js?ver=3.1.1'
+        id='element-pack-site-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/bdthemes-prime-slider-lite/assets/js/prime-slider-site.min0a100a100a10.js?ver=1.14.2'
+        id='prime-slider-site-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9aee9aee9a.js?ver=3.2.2'
+        id='elementor-pro-webpack-runtime-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.minee9aee9aee9a.js?ver=3.2.2'
+        id='elementor-sticky-js'></script>
+    <script type='text/javascript' id='elementor-pro-frontend-js-before'>
+        var ElementorProFrontendConfig = {
+            "ajaxurl": "https:\/\/demo.moxcreative.com\/kingsley\/wp-admin\/admin-ajax.php",
+            "nonce": "d0f878569a",
+            "urls": {
+                "assets": "https:\/\/demo.moxcreative.com\/kingsley\/wp-content\/plugins\/elementor-pro\/assets\/"
+            },
+            "i18n": {
+                "toc_no_headings_found": "No headings were found on this page."
+            },
+            "shareButtonsNetworks": {
+                "facebook": {
+                    "title": "Facebook",
+                    "has_counter": true
+                },
+                "twitter": {
+                    "title": "Twitter"
+                },
+                "google": {
+                    "title": "Google+",
+                    "has_counter": true
+                },
+                "linkedin": {
+                    "title": "LinkedIn",
+                    "has_counter": true
+                },
+                "pinterest": {
+                    "title": "Pinterest",
+                    "has_counter": true
+                },
+                "reddit": {
+                    "title": "Reddit",
+                    "has_counter": true
+                },
+                "vk": {
+                    "title": "VK",
+                    "has_counter": true
+                },
+                "odnoklassniki": {
+                    "title": "OK",
+                    "has_counter": true
+                },
+                "tumblr": {
+                    "title": "Tumblr"
+                },
+                "digg": {
+                    "title": "Digg"
+                },
+                "skype": {
+                    "title": "Skype"
+                },
+                "stumbleupon": {
+                    "title": "StumbleUpon",
+                    "has_counter": true
+                },
+                "mix": {
+                    "title": "Mix"
+                },
+                "telegram": {
+                    "title": "Telegram"
+                },
+                "pocket": {
+                    "title": "Pocket",
+                    "has_counter": true
+                },
+                "xing": {
+                    "title": "XING",
+                    "has_counter": true
+                },
+                "whatsapp": {
+                    "title": "WhatsApp"
+                },
+                "email": {
+                    "title": "Email"
+                },
+                "print": {
+                    "title": "Print"
+                }
+            },
+            "facebook_sdk": {
+                "lang": "en_US",
+                "app_id": ""
+            },
+            "lottie": {
+                "defaultAnimationUrl": "https:\/\/demo.moxcreative.com\/kingsley\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+            }
+        };
+    </script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor-pro/assets/js/frontend.minee9aee9aee9a.js?ver=3.2.2'
+        id='elementor-pro-frontend-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9aee9aee9a.js?ver=3.2.2'
+        id='pro-preloaded-elements-handlers-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle25b625b625b6.js?ver=2.3.5'
+        id='animate-circle-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor25b625b625b6.js?ver=2.3.5'
+        id='elementskit-elementor-js'></script>
+    <script type='text/javascript'
+        src='/fxcrptic/temp/wp-content/plugins/elementor/assets/js/preloaded-modules.min3d363d363d36.js?ver=3.3.1'
+        id='preloaded-modules-js'></script>
+
+    <script src="../app.wabi-app.com/widget/js/wabi67c5.html?phone_number=+18035267402lang=en&amp;position=left"></script>
 
 
-    {{-- livechat --}}
-    {!! json_decode(site('livechat')) !!}
+    <div class="select-language">
+        <div id="google_translate_element"></div>
+
+        <script>
+            function googleTranslateElementInit() {
+
+                new google.translate.TranslateElement({
+
+                    pageLanguage: 'en'
+
+                }, 'google_translate_element');
+
+            }
+        </script>
+
+
+
+        <!-- GetButton.io widget -
+<script type="text/javascript">
+    (function() {
+        var options = {
+            whatsapp: "+33745651973", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol,
+            host = "getbutton.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function() {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+
+
+
+
 
 </body>
+
+
+<!-- Mirrored from b9-cryptomining.com/?a=about by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jun 2022 20:34:28 GMT -->
 
 </html>

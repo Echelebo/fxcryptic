@@ -15,284 +15,275 @@
 
 
 @section('contents')
-    <main class="content">
-        <div class="breadcrumb-block w-full lg:h-[400px] sm:h-[360px] h-[320px] relative">
-            <div class="bg-img w-full h-full absolute top-0 left-0 z-[-1]"><img alt="banner" loading="lazy" width="4000"
-                    height="3000" decoding="async" data-nimg="1" class="w-full h-full object-cover"
-                    srcset="/finatex-next.vercel.app/_next/images/banner/about1.png&w=3840&q=75 1x"
-                    src="/finatex-next.vercel.app/_next/images/banner/about1.png&w=3840&q=75" style="color: transparent;">
-            </div>
-            <div class="container relative h-full flex items-center">
-                <div class="heading-nav flex items-center gap-1 absolute top-8 left-4 py-1.5 px-4 rounded-full bg-line"><a
-                        class="hover:underline caption1 text-white" href="/">Home</a><svg
-                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                        viewBox="0 0 256 256" class="text-white">
-                        <path
-                            d="M141.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L124.69,128,50.34,53.66A8,8,0,0,1,61.66,42.34l80,80A8,8,0,0,1,141.66,133.66Zm80-11.32-80-80a8,8,0,0,0-11.32,11.32L204.69,128l-74.35,74.34a8,8,0,0,0,11.32,11.32l80-80A8,8,0,0,0,221.66,122.34Z">
-                        </path>
-                    </svg>
-                    <div class="caption1 text-white">Terms Of Service</div>
+    <div data-elementor-type="wp-post" data-elementor-id="294" class="elementor elementor-294" data-elementor-settings="[]">
+        <div class="elementor-section-wrap">
+            <section
+                class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-f1ac91d elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+                data-id="f1ac91d" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                <div class="elementor-background-overlay">
                 </div>
-                <div class="text-nav xl:w-1/2 md:w-3/5">
-                    <div class="heading3 text-white">Terms Of Service</div>
-                    <div class="sub-heading mt-4 text-white font-normal">Prior to availing any of our services, we kindly
-                        request that you review and acknowledge our Acceptable Use Terms of Service.</div>
-                </div>
-            </div>
-        </div>
-
-        <section class="w-full px-5 md:px-20 py-10 mt-[100px]">
-            <div class="container">
-                <div class="w-full  flex justify-center">
-                    <div class="w-full flex items-center justify-center text-gray-500">
-                        <div class="w-full lg:w-3/4 grid grid-cols-1 gap-5 mt-10">
-                            <h2 class="text-2xl rescron-font-bold">Acceptance of Terms</h2>
-                            <p>
-                                Welcome to {{ site('name') }}! By accessing or using our services, including but not
-                                limited to our
-                                website,
-                                trading platform, and any associated software or applications (collectively referred to as
-                                the
-                                "Services"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree
-                                to these
-                                Terms, please do not use our Services.
-                            </p>
-
-
-                            <h2 class="text-2xl rescron-font-bold">Description of Services</h2>
-                            <p>
-                                {{ site('name') }} provides a trading platform that utilizes advanced technology to analyze
-                                market
-                                trends
-                                and execute trades. Our Services are designed to facilitate trading activities, and we do
-                                not
-                                provide financial advice. You are solely responsible for your trading decisions.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold">Eligibility</h2>
-                            <p>
-                                You must be at least 18 years old and have the legal capacity to enter into this agreement
-                                to use
-                                our Services. By using our Services, you represent and warrant that you meet these
-                                eligibility
-                                criteria.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Registration and Account Security</h2>
-                            <p>
-                                To access certain features of our Services, you may need to register for an account. You
-                                agree to
-                                provide accurate, current, and complete information during the registration process and to
-                                keep your
-                                account information updated. You are responsible for maintaining the confidentiality of your
-                                account
-                                credentials and for all activities that occur under your account. You must immediately
-                                notify us of
-                                any unauthorized use of your account.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Privacy Policy</h2>
-                            <p>
-                                Your use of our Services is also governed by our Privacy Policy. Please review our Privacy
-                                Policy to
-                                understand how we collect, use, and protect your personal information.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Prohibited Activities</h2>
-                            <div>
-                                <p>You agree not to engage in any of the following prohibited activities while using our
-                                    Services:
-                                </p>
-                                <p class="text-xs">
-                                    <i class="bi bi-dot"></i>Violating any applicable laws or regulations. <br>
-                                    <i class="bi bi-dot"></i>Impersonating any person or entity or providing false
-                                    information. <br>
-                                    <i class="bi bi-dot"></i>Attempting to gain unauthorized access to our Services or
-                                    computer
-                                    systems. <br>
-                                    <i class="bi bi-dot"></i>Interfering with the proper functioning of our Services. <br>
-                                    <i class="bi bi-dot"></i>Engaging in any activity that could harm, disable, or
-                                    overburden our
-                                    infrastructure. <br>
-                                </p>
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b36272c elementor-invisible"
+                        data-id="b36272c" data-element_type="column"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-467b2a0 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="467b2a0" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h1 class="elementor-heading-title elementor-size-default">Terms of Use
+                                    </h1>
+                                </div>
                             </div>
-
-                            <h2 class="text-2xl rescron-font-bold"> Termination of Services</h2>
-                            <p>
-                                We reserve the right to terminate or suspend your access to our Services at our discretion,
-                                without
-                                notice, for any reason, including if we believe you have violated these Terms. You may also
-                                terminate your account at any time by discontinuing use of our Services.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Disclaimer of Warranties</h2>
-                            <p>
-                                Our Services are provided "as is" and "as available" without warranties of any kind, either
-                                express
-                                or implied. We do not guarantee the accuracy, reliability, or availability of our Services
-                                or the
-                                results obtained through their use. You use our Services at your own risk.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Limitation of Liability</h2>
-                            <p>
-                                To the fullest extent permitted by applicable law, {{ site('name') }} and its affiliates,
-                                officers,
-                                directors, employees, and agents shall not be liable for any indirect, incidental, special,
-                                consequential, or punitive damages, or any loss of profits or revenues, whether incurred
-                                directly or
-                                indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from
-                                (a) your
-                                use or inability to use our Services, (b) any unauthorized access to or use of our servers
-                                and/or
-                                any personal information stored therein, (c) any interruption or cessation of our Services,
-                                (d) any
-                                bugs, viruses, or other harmful code that may be transmitted to or through our Services, or
-                                (e) any
-                                errors, inaccuracies, omissions, or any other aspect of our Services.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Intellectual Property</h2>
-                            <p>
-                                All content included in or made available through our Services, including text, graphics,
-                                logos,
-                                button icons, images, audio clips, digital downloads, and data compilations, is the property
-                                of
-                                {{ site('name') }} or its content suppliers and is protected by United States and
-                                international
-                                copyright
-                                laws.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Changes to Terms</h2>
-                            <p>
-                                We reserve the right to modify or revise these Terms at any time. The most current version
-                                of these
-                                Terms will be posted on our website. Your continued use of our Services following the
-                                posting of any
-                                changes constitutes your acceptance of those changes.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Governing Law</h2>
-                            <p>
-                                These Terms are governed by and construed in accordance with the laws of the State of
-                                {{ site('country') }}, without regard to its conflict of law principles.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Contact Information</h2>
-                            <p>
-                                If you have any questions about these Terms or our Services, please contact us at
-                                {{ site('email') }}.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> User Responsibilities</h2>
-                            <p>
-                                As a user of {{ site('name') }}'s Services, you agree to: <br>
-                                <span class="text-xs">
-                                    <i class="bi bi-dot"></i>Comply with all applicable laws and regulations related to
-                                    trading and
-                                    financial transactions. <br>
-                                    <i class="bi bi-dot"></i>Keep your account information, including passwords, secure and
-                                    confidential. <br>
-                                    <i class="bi bi-dot"></i>Use our Services only for lawful purposes. <br>
-                                    <i class="bi bi-dot"></i>Refrain from attempting to disrupt or interfere with the proper
-                                    functioning of our Services. <br>
-                                    <i class="bi bi-dot"></i>Report any security breaches or unauthorized access to our
-                                    Services
-                                    promptly. <br>
-                                </span>
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Account Suspension and Termination</h2>
-                            <p>
-                                {{ site('name') }} reserves the right to suspend or terminate user accounts for violations
-                                of these
-                                Terms or
-                                for any other reason, at its sole discretion.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Third-Party Links and Services</h2>
-                            <p>
-                                Our Services may contain links to third-party websites or services. {{ site('name') }} does
-                                not
-                                endorse or
-                                control these third-party websites or services and is not responsible for their content or
-                                practices. Use of third-party websites or services is at your own risk.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Indemnification</h2>
-                            <p>
-                                You agree to indemnify and hold {{ site('name') }}, its affiliates, officers, directors,
-                                employees,
-                                and
-                                agents harmless from any claims, losses, damages, liabilities, and expenses (including
-                                attorney's
-                                fees) arising from or related to your use of our Services or violation of these Terms.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Dispute Resolution</h2>
-                            <p>
-                                Any disputes arising from or relating to these Terms or your use of our Services shall be
-                                resolved
-                                through arbitration in accordance with the rules of the {{ site('country') }} Arbitration
-                                Association. The arbitration shall take place in {{ site('city') }}, {{ site('state') }},
-                                and the
-                                decision of the arbitrator shall be final and binding.
-                            </p>
-
-
-                            <h2 class="text-2xl rescron-font-bold"> Entire Agreement</h2>
-                            <p>
-                                These Terms constitute the entire agreement between you and {{ site('name') }} with
-                                respect to the
-                                subject
-                                matter hereof and supersedes all prior or contemporaneous communications and proposals,
-                                whether oral
-                                or written, between the parties.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Assignment</h2>
-                            <p>
-                                You may not assign or transfer these Terms, in whole or in part, without the prior written
-                                consent
-                                of {{ site('name') }}. {{ site('name') }} may freely assign these Terms without
-                                restriction.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Waiver and Severability</h2>
-                            <p>
-                                The failure of {{ site('name') }} to enforce any right or provision of these Terms shall
-                                not
-                                constitute a
-                                waiver of such right or provision. If any provision of these Terms is found by a court of
-                                competent
-                                jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to
-                                give
-                                effect to the parties' intentions as reflected in the provision, and the other provisions of
-                                these
-                                Terms remain in full force and effect.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> No Third-Party Beneficiaries</h2>
-                            <p>
-                                These Terms do not create any third-party beneficiary rights.
-                            </p>
-
-                            <h2 class="text-2xl rescron-font-bold"> Contact Us</h2>
-                            <p>
-                                If you have any questions or concerns about these Terms, please contact us at
-                                {{ site('email') }}.
-                            </p>
-
-
-
+                            <div class="elementor-element elementor-element-293bf1b ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="293bf1b" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h5 class="elementor-heading-title elementor-size-default">We move, create opportunities
+                                        and protect money for customers and clients worldwide
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-@endsection
+            </section>
+            <section
+                class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-9e55886 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="9e55886" data-element_type="section"
+                data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="" data-id="3dc3f31" data-element_type="column"
+                        data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-80935ab ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="80935ab" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h6 class="elementor-heading-title elementor-size-default">Fxcryptic
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-9193c26 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="9193c26" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Terms of Use
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-ca77d0c ob-harakiri-inherit elementor-widget elementor-widget-text-editor"
+                                data-id="ca77d0c" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <h4>1. Introduction</h4>
+                                    <p>Fxcryptic is an automated investment platform available online and through mobile
+                                        applications.</p>
+                                    <p>We offer an automated investment service. As our Client, we will manage your
+                                        investment on your behalf in a very low cost manner to maximize your returns. By
+                                        using our website, you enter into a series of legally binding agreements. You also
+                                        agree to our Privacy Policy which covers how we collect, use, share and store your
+                                        personal information.</p>
 
-@section('scripts')
-@endsection
+                                    <p>When you access our website ("our website" (which includes our blog), "our app" or
+                                        “Fxcryptic") as a User and Client, you're agreeing to be bound by the following
+                                        Terms of Use. Please therefore take the time to read the following binding Terms of
+                                        Use below. For the purpose of this agreement a User is an individual who uses our
+                                        website to evaluate our service, or for educational purposes and a Client is an
+                                        individual who signs up on Fxcryptic that entitles the Client to have her or his
+                                        investment portfolio managed by Fxcryptic. This Agreement, as well as the Privacy
+                                        Policy applies to both Users and Clients. If you elect to become a Client, you will
+                                        be subject to these Terms of Use, our Client Agreement, our Privacy Policy and any
+                                        additional terms to which you agree when you create and fund an investment plan.</p>
+
+                                    <h4>2. Obligations</h4>
+                                    <p>You must be 18 or older to access our website or mobile applications.</p>
+
+                                    <p>Fxcryptic is intended solely for individuals who are 18 or older. Any access to or
+                                        use of Fxcryptic by anyone under 18 is unauthorized, unlicensed, and in violation of
+                                        these Terms of Use. By accessing or using Fxcryptic, you represent and warrant that
+                                        you are 18 or older.</p>
+                                    <p>In order to access certain features of Fxcryptic, you must register to create an
+                                        account ("User Account"). When you register, you will be asked to choose a password,
+                                        which you will be required to use to access your User Account. Fxcryptic has
+                                        physical, electronic and procedural safeguards that comply with regulatory standards
+                                        to guard Users' and Clients' non-public personal information (see Privacy Policy).
+                                        You are responsible for safeguarding your password and other User Account
+                                        information. You agree not to disclose your password to any third party and you will
+                                        notify Fxcryptic immediately if your password is lost or stolen or if you suspect
+                                        any unauthorized use of your User Account. As a User you agree that you shall be
+                                        solely responsible for any activities or actions under your User Account, whether or
+                                        not you have authorized such activities or actions. You agree that the information
+                                        you provide to us on account registration through our website or mobile applications
+                                        will be true, accurate, current, and complete.</p>
+
+                                    <h4>3. Disclaimer and Limit of Liability</h4>
+                                    <p>Fxcryptic cannot be held responsible for any financial insights or recommendations
+                                        provided to users.</p>
+
+                                    <p>For a User who is not a Client You understand and acknowledge that the investment
+                                        results you could obtain from investment information and financial insights provided
+                                        by Fxcryptic cannot be guaranteed and that Fxcryptic cannot be held responsible. All
+                                        investments entail a risk of loss and that you may lose money. Investment management
+                                        services may be offered to individuals who become clients, at the sole discretion of
+                                        Fxcryptic. Your election to engage our investment services are subject to your
+                                        explicit enrollment and acceptance of this Terms of Use.. You agree and understand
+                                        that your use of Fxcryptic is for educational purposes only and is not intended to
+                                        provide legal, tax or financial planning advice. You agree as a User that you are
+                                        responsible for your own investment research and investment decisions, that
+                                        Fxcryptic is only one of many tools you may use as part of a comprehensive
+                                        investment education process, that you should not and will not rely on Fxcryptic as
+                                        the primary basis of your investment decisions and, except as otherwise provided for
+                                        herein, Fxcryptic will not be liable for decisions/actions you take or authorize
+                                        third parties to take on your behalf based on information you receive as a User of
+                                        Fxcryptic or information you otherwise see on our website.</p>
+
+                                    <h4>4. Termination</h4>
+                                    <p>Each of us can end this agreement at any time, subject to the maturity of all plans.
+                                        We may terminate or suspend your access to Fxcryptic, at any time with prior notice
+                                        to you if your account is found to be fraudulent.</p>
+
+                                    <p>We will fully cooperate with any law enforcement authorities or court order
+                                        requesting or directing us to disclose the identity of anyone posting, publishing,
+                                        or otherwise making available any User information, emails, or other materials that
+                                        are believed to violate these Terms of Use. Any suspension, termination, or
+                                        cancellation shall not affect your obligations to Fxcryptic under these Terms of Use
+                                        (including but not limited to ownership, indemnification, and limitation of
+                                        liability), which by their sense and context are intended to survive such
+                                        suspension, termination, or cancellation.</p>
+
+                                    <h4>5. General Terms</h4>
+                                    <p>In the event that any provision in these Terms of Use is held to be invalid or
+                                        unenforceable, the remaining provisions will remain in full force and effect. The
+                                        failure of a party to enforce any right or provision of these Terms of Use will not
+                                        be deemed a waiver of such right or provision. You may not assign this Agreement (by
+                                        operation of law or otherwise) without the prior written consent of Fxcryptic, and
+                                        any prohibited assignment will be null and void.</p>
+
+                                    <p>Fxcryptic may assign this Terms of Use Agreement or any rights hereunder without your
+                                        consent. The relationship of the parties under these Terms of Use is that of
+                                        independent contractors, and these Terms of Use will not be construed to imply that
+                                        either party is the agent, employee, or joint venture of the other. Note that if you
+                                        elect to become a Client, the relationship of the parties will be governed by these
+                                        Terms of Use, our Privacy Policy and any additional terms to which you agree when
+                                        you create and fund an investment account. We reserve the right to change this
+                                        Agreement by posting a revised Terms of Use and we agree that changes cannot be
+                                        retroactive. If you don't agree with these changes, you must stop using Fxcryptic.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-2e76fa3 elementor-widget elementor-widget-button"
+                                data-id="2e76fa3" data-element_type="widget"
+                                data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="button.default">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <div data-elementor-type="footer" data-elementor-id="44" class="elementor elementor-44 elementor-location-footer"
+        data-elementor-settings="[]">
+        <div class="elementor-section-wrap">
+            <section
+                class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-cacbd92 elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="cacbd92" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                <div class="elementor-background-overlay">
+                </div>
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ee6ef09 elementor-invisible"
+                        data-id="ee6ef09" data-element_type="column"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-background-overlay">
+                            </div>
+                            <div class="elementor-element elementor-element-b45c6e6 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="b45c6e6" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h1 class="elementor-heading-title elementor-size-default">Need Prove?
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-6f47ad4 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="6f47ad4" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h4 class="elementor-heading-title elementor-size-default">Check out our latest payouts.
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-06d3e6a elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                data-id="06d3e6a" data-element_type="widget"
+                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-divider">
+                                        <span class="elementor-divider-separator">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-2bf00cb elementor-widget elementor-widget-button"
+                                data-id="2bf00cb" data-element_type="widget"
+                                data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a href="/payout/index.php"
+                                            class="elementor-button-link elementor-button elementor-size-md"
+                                            role="button">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">View Payouts
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1ac2771"
+                        data-id="1ac2771" data-element_type="column"
+                        data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-737986f elementor-widget elementor-widget-elementskit-video"
+                                data-id="737986f" data-element_type="widget"
+                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="elementskit-video.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="video-content">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        @endsection

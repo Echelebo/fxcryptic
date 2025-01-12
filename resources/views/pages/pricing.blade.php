@@ -10,136 +10,690 @@
 @endphp
 
 {{-- layout --}}
-@extends('layouts.fronty')
+@extends('layouts.front')
 
 
 
 
 
 @section('contents')
-    <main class="content">
-        <div class="breadcrumb-block w-full lg:h-[400px] sm:h-[360px] h-[320px] relative">
-            <div class="bg-img w-full h-full absolute top-0 left-0 z-[-1]"><img alt="banner" loading="lazy" width="4000"
-                    height="3000" decoding="async" data-nimg="1" class="w-full h-full object-cover"
-                    srcset="/finatex-next.vercel.app/_next/images/banner/case-studies.png&w=3840&q=75 1x"
-                    src="/finatex-next.vercel.app/_next/images/banner/case-studies.png&w=3840&q=75"
-                    style="color: transparent;"></div>
-            <div class="container relative h-full flex items-center">
-                <div class="heading-nav flex items-center gap-1 absolute top-8 left-4 py-1.5 px-4 rounded-full bg-line"><a
-                        class="hover:underline caption1 text-white" href="/">Home</a><svg
-                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                        viewBox="0 0 256 256" class="text-white">
-                        <path
-                            d="M141.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L124.69,128,50.34,53.66A8,8,0,0,1,61.66,42.34l80,80A8,8,0,0,1,141.66,133.66Zm80-11.32-80-80a8,8,0,0,0-11.32,11.32L204.69,128l-74.35,74.34a8,8,0,0,0,11.32,11.32l80-80A8,8,0,0,0,221.66,122.34Z">
-                        </path>
-                    </svg>
-                    <div class="caption1 text-white">Our Pricing Plans</div>
+    <div data-elementor-type="wp-post" data-elementor-id="294" class="elementor elementor-294" data-elementor-settings="[]">
+        <div class="elementor-section-wrap">
+            <section
+                class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-f1ac91d elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+                data-id="f1ac91d" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                <div class="elementor-background-overlay">
                 </div>
-                <div class="text-nav xl:w-1/2 md:w-3/5">
-                    <div class="heading3 text-white">Pricing plans</div>
-                    <div class="sub-heading mt-4 text-white font-normal">Discover transparent pricing options tailored to
-                        your budget on our Pricing page.</div>
-                </div>
-            </div>
-        </div>
-        <div class="pricing-block style-pricing">
-            <div class="pricing-main lg:py-[100px] sm:py-16 py-10">
-                <div class="container">
-                    <div class="heading flex flex-col items-center gap-y-8">
-                        <div class="title text-center">
-                            <div class="heading3">Pricing</div>
-                            <div class="body1 mt-2">Choose a plan that’s right for you</div>
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b36272c elementor-invisible"
+                        data-id="b36272c" data-element_type="column"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-467b2a0 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="467b2a0" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h1 class="elementor-heading-title elementor-size-default">Investment Plans
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-293bf1b ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="293bf1b" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h5 class="elementor-heading-title elementor-size-default">Enjoy real benefits and
+                                        rewards on your accrue investing
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="list-pricing show lg:mt-[60px] mt-8">
-                        <div class="flex max-lg:flex-col gap-8">
+                </div>
+            </section>
+            <section
+                class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-75cd2cb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="75cd2cb" data-element_type="section"
+                data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2fcac4c elementor-invisible"
+                        data-id="2fcac4c" data-element_type="column"
+                        data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-40020e9 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="40020e9" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Choose the best plan for your
+                                        business.
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-61b6f29 ob-harakiri-inherit elementor-widget elementor-widget-text-editor"
+                                data-id="61b6f29" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>We move, create opportunities and protect money for customers and clients worldwide
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-ee45260 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="ee45260" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9d54727"
+                        data-id="9d54727" data-element_type="column"
+                        data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <section
+                                class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-7d75f5a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                data-id="7d75f5a" data-element_type="section"
+                                data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible"
+                                        data-id="0ddf454" data-element_type="column"
+                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table"
+                                                data-id="1c93599" data-element_type="widget"
+                                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                                data-widget_type="price-table.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-price-table">
+                                                        <div class="elementor-price-table__header">
+                                                            <h3 class="elementor-price-table__heading">Silver Plan
+                                                            </h3>
+                                                            <span class="elementor-price-table__subheading">Investment
+                                                                Service
+                                                            </span>
+                                                        </div>
+                                                        <div class="elementor-price-table__price">
+                                                            <span
+                                                                class="elementor-price-table__currency elementor-currency--before">
+                                                            </span>
+                                                            <span class="elementor-price-table__integer-part">20
+                                                            </span>
+                                                            <div class="elementor-price-table__after-price">
+                                                                <span
+                                                                    class="elementor-price-table__fractional-part">%/24Hours
+                                                                </span>
+                                                            </div>
+                                                            <span
+                                                                class="elementor-price-table__period elementor-typo-excluded">
+                                                            </span>
+                                                        </div>
+                                                        <ul class="elementor-price-table__features-list">
+                                                            <li class="elementor-repeater-item-bfa36f7">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Duration: 24 Hours </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-105561f">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Minimum: $100
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-474ad15">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Maximum: $1,999
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-2234086">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Referral: 5%
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-2234086">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Asset Protection
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            </li>
 
-                            @foreach ($bots as $bot)
-                                <div class="w-full lg:w-1/3">
-                                    <div class="pricing-item py-9 px-6 rounded-xl box-shadow">
-                                        <div class="heading6">{{ $bot->name }}</div>
-                                        <div class="price flex items-end gap-2 mt-5">
-                                            <div class="heading2">${{ $bot->min }}</div>
-                                            <div class="body3">/ {{ $bot->duration }} {{ $bot->duration_type }}</div>
-                                        </div>
-                                        <div class="button-block w-full mt-6"><a
-                                                class="button-main text-center block hover:text-white hover:bg-blue bg-white border border-blue text-black text-button w-full py-3 rounded-full"
-                                                href="{{ route('user.login') }}">Get Started</a></div>
-                                        <div class="list-feature md:mt-10 mt-6 flex flex-col gap-3">
-                                            <div class="item flex items-center gap-4"> <svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                                    fill="currentColor" viewBox="0 0 256 256" class="text-blue text-3xl">
-                                                    <path
-                                                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z">
-                                                    </path>
-                                                </svg>
-                                                <div class="body3">24/7 Support</div>
-                                            </div>
-                                            <div class="item flex items-center gap-4"> <svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                                    fill="currentColor" viewBox="0 0 256 256" class="text-blue text-3xl">
-                                                    <path
-                                                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z">
-                                                    </path>
-                                                </svg>
-                                                <div class="body3">Market Updates</div>
-                                            </div>
-                                            <div class="item flex items-center gap-4"> <svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                                    fill="currentColor" viewBox="0 0 256 256" class="text-blue text-3xl">
-                                                    <path
-                                                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z">
-                                                    </path>
-                                                </svg>
-                                                <div class="body3">Insurance</div>
-                                            </div>
-                                            <div class="item flex items-center gap-4"> <svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                                    fill="currentColor" viewBox="0 0 256 256" class="text-blue text-3xl">
-                                                    <path
-                                                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z">
-                                                    </path>
-                                                </svg>
-                                                <div class="body3">Unlimited Trading</div>
-                                            </div>
-                                            <div class="item flex items-center gap-4"> <svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                                    fill="currentColor" viewBox="0 0 256 256" class="text-blue text-3xl">
-                                                    <path
-                                                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z">
-                                                    </path>
-                                                </svg>
-                                                <div class="body3">Investment Advices</div>
-                                            </div>
-                                            <div class="item flex items-center gap-4"> <svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                                    fill="currentColor" viewBox="0 0 256 256" class="text-blue text-3xl">
-                                                    <path
-                                                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z">
-                                                    </path>
-                                                </svg>
-                                                <div class="body3">Unlimited Signals</div>
+                                                            <li class="elementor-repeater-item-e7980d8">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Live Support
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="elementor-price-table__footer">
+                                                            <a class="elementor-price-table__button elementor-button elementor-size-md"
+                                                                href="/trade/register">Get Started
+                                                            </a>
+                                                            <div class="elementor-price-table__additional_info">*Contact Us
+                                                                for Consultations.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible"
+                                        data-id="0ddf454" data-element_type="column"
+                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table"
+                                                data-id="1c93599" data-element_type="widget"
+                                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                                data-widget_type="price-table.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-price-table">
+                                                        <div class="elementor-price-table__header">
+                                                            <h3 class="elementor-price-table__heading">Premium Plan
+                                                            </h3>
+                                                            <span class="elementor-price-table__subheading">Investment
+                                                                Service
+                                                            </span>
+                                                        </div>
+                                                        <div class="elementor-price-table__price">
+                                                            <span
+                                                                class="elementor-price-table__currency elementor-currency--before">
+                                                            </span>
+                                                            <span class="elementor-price-table__integer-part">40
+                                                            </span>
+                                                            <div class="elementor-price-table__after-price">
+                                                                <span
+                                                                    class="elementor-price-table__fractional-part">%/48Hours
+                                                                </span>
+                                                            </div>
+                                                            <span
+                                                                class="elementor-price-table__period elementor-typo-excluded">
+                                                            </span>
+                                                        </div>
+                                                        <ul class="elementor-price-table__features-list">
+                                                            <li class="elementor-repeater-item-bfa36f7">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Duration: 48 Hours
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-105561f">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Minimum: $2,000
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-474ad15">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Maximum: $4,999
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-2234086">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Referral: 5%
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-2234086">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Asset Protection
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-e7980d8">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Live Support
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="elementor-price-table__footer">
+                                                            <a class="elementor-price-table__button elementor-button elementor-size-md"
+                                                                href="/trade/register">Get Started
+                                                            </a>
+                                                            <div class="elementor-price-table__additional_info">*Contact Us
+                                                                for Consultations.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible"
+                                        data-id="0ddf454" data-element_type="column"
+                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table"
+                                                data-id="1c93599" data-element_type="widget"
+                                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                                data-widget_type="price-table.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-price-table">
+                                                        <div class="elementor-price-table__header">
+                                                            <h3 class="elementor-price-table__heading">Diamond Plan
+                                                            </h3>
+                                                            <span class="elementor-price-table__subheading">Investment
+                                                                Service
+                                                            </span>
+                                                        </div>
+                                                        <div class="elementor-price-table__price">
+                                                            <span
+                                                                class="elementor-price-table__currency elementor-currency--before">
+                                                            </span>
+                                                            <span class="elementor-price-table__integer-part">60
+                                                            </span>
+                                                            <div class="elementor-price-table__after-price">
+                                                                <span
+                                                                    class="elementor-price-table__fractional-part">%/72Hours
+                                                                </span>
+                                                            </div>
+                                                            <span
+                                                                class="elementor-price-table__period elementor-typo-excluded">
+                                                            </span>
+                                                        </div>
+                                                        <ul class="elementor-price-table__features-list">
+                                                            <li class="elementor-repeater-item-bfa36f7">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Duration: 72 Hours
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-105561f">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Minimum: $5,000
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-474ad15">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Maximum: $9,999
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-2234086">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Referral: 5%
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-2234086">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Asset Protection
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-e7980d8">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Live Support
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="elementor-price-table__footer">
+                                                            <a class="elementor-price-table__button elementor-button elementor-size-md"
+                                                                href="/trade/register">Get Started
+                                                            </a>
+                                                            <div class="elementor-price-table__additional_info">*Contact Us
+                                                                for Consultations.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible"
+                                        data-id="0ddf454" data-element_type="column"
+                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table"
+                                                data-id="1c93599" data-element_type="widget"
+                                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                                data-widget_type="price-table.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-price-table">
+                                                        <div class="elementor-price-table__header">
+                                                            <h3 class="elementor-price-table__heading">Professional plan
+                                                            </h3>
+                                                            <span class="elementor-price-table__subheading">Investment
+                                                                Service
+                                                            </span>
+                                                        </div>
+                                                        <div class="elementor-price-table__price">
+                                                            <span
+                                                                class="elementor-price-table__currency elementor-currency--before">
+                                                            </span>
+                                                            <span class="elementor-price-table__integer-part">80
+                                                            </span>
+                                                            <div class="elementor-price-table__after-price">
+                                                                <span
+                                                                    class="elementor-price-table__fractional-part">%/168Hours
+                                                                </span>
+                                                            </div>
+                                                            <span
+                                                                class="elementor-price-table__period elementor-typo-excluded">
+                                                            </span>
+                                                        </div>
+                                                        <ul class="elementor-price-table__features-list">
+                                                            <li class="elementor-repeater-item-bfa36f7">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Duration: 168 Hours
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-105561f">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Minimum: $10,000
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-474ad15">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Maximum: Infinity
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-2234086">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Referral: 5%
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-2234086">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Asset Protection
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                            <li class="elementor-repeater-item-e7980d8">
+                                                                <div class="elementor-price-table__feature-inner">
+                                                                    <i aria-hidden="true" class="fa fa-check">
+                                                                    </i>
+                                                                    <span>
+                                                                        Live Support
+                                                                    </span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="elementor-price-table__footer">
+                                                            <a class="elementor-price-table__button elementor-button elementor-size-md"
+                                                                href="/trade/register">Get Started
+                                                            </a>
+                                                            <div class="elementor-price-table__additional_info">*Contact Us
+                                                                for Consultations.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible" data-id="0ddf454" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table" data-id="1c93599" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="price-table.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-price-table">
+                                                            <div class="elementor-price-table__header">
+                                                                <h3 class="elementor-price-table__heading">Diamond
+                                                                </h3>
+                                                                <span class="elementor-price-table__subheading">Investment Service
+                                        </span>
+                                                            </div>
+                                                            <div class="elementor-price-table__price">
+                                        <span class="elementor-price-table__currency elementor-currency--before">
+                                        </span>
+                                                                <span class="elementor-price-table__integer-part">50
+                                        </span>
+                                                                <div class="elementor-price-table__after-price">
+                                          <span class="elementor-price-table__fractional-part">%
+                                          </span>
+                                                                </div>
+                                                                <span class="elementor-price-table__period elementor-typo-excluded">
+                                        </span>
+                                                            </div>
+                                                            <ul class="elementor-price-table__features-list">
+                                                                <li class="elementor-repeater-item-bfa36f7">
+                                                                    <div class="elementor-price-table__feature-inner">
+                                                                        <i aria-hidden="true" class="fa fa-check">
+                                                                        </i>
+                                                                        <span >
+                                              After 48 hours
+                                            </span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="elementor-repeater-item-105561f">
+                                                                    <div class="elementor-price-table__feature-inner">
+                                                                        <i aria-hidden="true" class="fa fa-check">
+                                                                        </i>
+                                                                        <span >
+                                              Minimum:  $5001
+                                            </span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="elementor-repeater-item-474ad15">
+                                                                    <div class="elementor-price-table__feature-inner">
+                                                                        <i aria-hidden="true" class="fa fa-check">
+                                                                        </i>
+                                                                        <span >
+                                                                                                                                                Maximum:  $10000
+                                                                                                                </span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="elementor-repeater-item-2234086">
+                                                                    <div class="elementor-price-table__feature-inner">
+                                                                        <i aria-hidden="true" class="fa fa-check">
+                                                                        </i>
+                                                                        <span >
+                                              Asset Protection
+                                            </span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="elementor-repeater-item-e7980d8">
+                                                                    <div class="elementor-price-table__feature-inner">
+                                                                        <i aria-hidden="true" class="fa fa-check">
+                                                                        </i>
+                                                                        <span >
+                                              Live Support
+                                            </span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="elementor-price-table__footer">
+                                                                <a class="elementor-price-table__button elementor-button elementor-size-md" href="/?a=signup">Get Started
+                                                                </a>
+                                                                <div class="elementor-price-table__additional_info">*Contact Us for Consultations.-->
                                 </div>
-                            @endforeach
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="cta-block style-two relative lg:h-[120px] h-[180px]">
-            <div class="bg-cta w-full h-full absolute top-0 left-0 z-[-1]"><img alt="" loading="lazy" width="5000"
-                    height="5000" decoding="async" data-nimg="1" class="w-full h-full object-cover"
-                    srcset="/finatex-next.vercel.app/_next/images/cta/bg-cta1.png&w=3840&q=75 1x"
-                    src="/finatex-next.vercel.app/_next/images/cta/bg-cta1.png&w=3840&q=75" style="color: transparent;">
-            </div>
-            <div class="container flex items-center justify-between max-lg:flex-col max-lg:justify-center gap-6 h-full">
-                <div class="heading5 max-lg:text-center text-white">Looking for a first-class cryptocurrency consultant?
-                </div><a class="button-main rounded-full hover:bg-black hover:text-white bg-white text-button px-9 py-3"
-                    href="{{ route('user.login') }}">Member Login</a>
-            </div>
-        </div>
-    </main>
-@endsection
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <div data-elementor-type="footer" data-elementor-id="44" class="elementor elementor-44 elementor-location-footer"
+        data-elementor-settings="[]">
+        <div class="elementor-section-wrap">
+            <section
+                class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-cacbd92 elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="cacbd92" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                <div class="elementor-background-overlay">
+                </div>
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ee6ef09 elementor-invisible"
+                        data-id="ee6ef09" data-element_type="column"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-background-overlay">
+                            </div>
+                            <div class="elementor-element elementor-element-b45c6e6 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="b45c6e6" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h1 class="elementor-heading-title elementor-size-default">Need Prove?
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-6f47ad4 ob-harakiri-inherit elementor-widget elementor-widget-heading"
+                                data-id="6f47ad4" data-element_type="widget"
+                                data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h4 class="elementor-heading-title elementor-size-default">Check out our latest
+                                        payouts.
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-06d3e6a elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                data-id="06d3e6a" data-element_type="widget"
+                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-divider">
+                                        <span class="elementor-divider-separator">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-2bf00cb elementor-widget elementor-widget-button"
+                                data-id="2bf00cb" data-element_type="widget"
+                                data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a href="/payout/index.php"
+                                            class="elementor-button-link elementor-button elementor-size-md"
+                                            role="button">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">View Payouts
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1ac2771"
+                        data-id="1ac2771" data-element_type="column"
+                        data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-737986f elementor-widget elementor-widget-elementskit-video"
+                                data-id="737986f" data-element_type="widget"
+                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                data-widget_type="elementskit-video.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="video-content">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        @endsection
