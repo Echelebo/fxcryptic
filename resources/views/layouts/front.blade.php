@@ -84,29 +84,29 @@
         }
     </style>
     <link rel='stylesheet' id='bdt-uikit-css'
-        href='temp2/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikitcf1bcf1bcf1b.css?ver=3.2'
+        href=/fxcrptic/temp2/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikitcf1bcf1bcf1b.css?ver=3.2'
         type='text/css' media='all' />
     <link rel='stylesheet' id='element-pack-site-css'
-        href='temp2/wp-content/plugins/bdthemes-element-pack-lite/assets/css/element-pack-siteb12bb12bb12b.css?ver=3.1.1'
+        href=/fxcrptic/temp2/wp-content/plugins/bdthemes-element-pack-lite/assets/css/element-pack-siteb12bb12bb12b.css?ver=3.1.1'
         type='text/css' media='all' />
     <link rel='stylesheet' id='prime-slider-site-css'
-        href='temp2/wp-content/plugins/bdthemes-prime-slider-lite/assets/css/prime-slider-site0a100a100a10.css?ver=1.14.2'
+        href=/fxcrptic/temp2/wp-content/plugins/bdthemes-prime-slider-lite/assets/css/prime-slider-site0a100a100a10.css?ver=1.14.2'
         type='text/css' media='all' />
     <link rel='stylesheet' id='wp-block-library-css'
-        href='temp2/wp-includes/css/dist/block-library/style.min41a341a341a3.css?ver=5.8' type='text/css'
+        href=/fxcrptic/temp2/wp-includes/css/dist/block-library/style.min41a341a341a3.css?ver=5.8' type='text/css'
         media='all' />
     <link rel='stylesheet' id='template-kit-export-css'
-        href='temp2/wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min9f349f349f34.css?ver=1.0.20'
+        href=/fxcrptic/temp2/wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min9f349f349f34.css?ver=1.0.20'
         type='text/css' media='all' />
     <link rel='stylesheet' id='hello-elementor-css'
-        href='temp2/wp-content/themes/hello-elementor/style.min806680668066.css?ver=2.4.1' type='text/css'
+        href=/fxcrptic/temp2/wp-content/themes/hello-elementor/style.min806680668066.css?ver=2.4.1' type='text/css'
         media='all' />
     <link rel='stylesheet' id='hello-elementor-theme-style-css'
-        href='temp2/wp-content/themes/hello-elementor/theme.min806680668066.css?ver=2.4.1' type='text/css'
+        href=/fxcrptic/temp2/wp-content/themes/hello-elementor/theme.min806680668066.css?ver=2.4.1' type='text/css'
         media='all' />
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='temp2/wp-content/plugins/elementor/assets/css/frontend.min3d363d363d36.css?ver=3.3.1' type='text/css'
-        media='all' />
+        href=/fxcrptic/temp2/wp-content/plugins/elementor/assets/css/frontend.min3d363d363d36.css?ver=3.3.1'
+        type='text/css' media='all' />
     <style id='elementor-frontend-inline-css' type='text/css'>
         @font-face {
             font-family: eicons;
@@ -117,47 +117,47 @@
         }
     </style>
     <link rel='stylesheet' id='elementor-post-6-css'
-        href='temp2/wp-content/uploads/sites/56/elementor/css/post-62bf42bf42bf4.css?ver=1627639092' type='text/css'
-        media='all' />
+        href=/fxcrptic/temp2/wp-content/uploads/sites/56/elementor/css/post-62bf42bf42bf4.css?ver=1627639092'
+        type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-icons-css'
-        href='temp2/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb683b683b683.css?ver=5.12.0'
+        href=/fxcrptic/temp2/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb683b683b683.css?ver=5.12.0'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-pro-css'
-        href='temp2/wp-content/plugins/elementor-pro/assets/css/frontend.minee9aee9aee9a.css?ver=3.2.2' type='text/css'
-        media='all' />
+        href=/fxcrptic/temp2/wp-content/plugins/elementor-pro/assets/css/frontend.minee9aee9aee9a.css?ver=3.2.2'
+        type='text/css' media='all' />
     <link rel='stylesheet' id='ooohboi-steroids-styles-css'
-        href='temp2/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/maindd81dd81dd81.css?ver=1.7.903052021'
+        href=/fxcrptic/temp2/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/maindd81dd81dd81.css?ver=1.7.903052021'
         type='text/css' media='all' />
     <link rel='stylesheet' id='void-whmcse-css'
-        href='temp2/wp-content/plugins/void-elementor-whmcs-elements/assets/css/style41a341a341a3.css?ver=5.8'
+        href=/fxcrptic/temp2/wp-content/plugins/void-elementor-whmcs-elements/assets/css/style41a341a341a3.css?ver=5.8'
         type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-294-css'
-        href='temp2/wp-content/uploads/sites/56/elementor/css/post-29409f309f309f3.css?ver=1627733378' type='text/css'
-        media='all' />
+        href=/fxcrptic/temp2/wp-content/uploads/sites/56/elementor/css/post-29409f309f309f3.css?ver=1627733378'
+        type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-32-css'
-        href='temp2/wp-content/uploads/sites/56/elementor/css/post-322bf42bf42bf4.css?ver=1627639092' type='text/css'
-        media='all' />
+        href=/fxcrptic/temp2/wp-content/uploads/sites/56/elementor/css/post-322bf42bf42bf4.css?ver=1627639092'
+        type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-44-css'
-        href='temp2/wp-content/uploads/sites/56/elementor/css/post-442df62df62df6.css?ver=1627661472' type='text/css'
-        media='all' />
+        href=/fxcrptic/temp2/wp-content/uploads/sites/56/elementor/css/post-442df62df62df6.css?ver=1627661472'
+        type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-icons-ekiticons-css'
-        href='temp2/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons25b625b625b6.css?ver=2.3.5'
+        href=/fxcrptic/temp2/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons25b625b625b6.css?ver=2.3.5'
         type='text/css' media='all' />
     <link rel='stylesheet' id='ekit-widget-styles-css'
-        href='temp2/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles25b625b625b6.css?ver=2.3.5'
+        href=/fxcrptic/temp2/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles25b625b625b6.css?ver=2.3.5'
         type='text/css' media='all' />
     <link rel='stylesheet' id='ekit-responsive-css'
-        href='temp2/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive25b625b625b6.css?ver=2.3.5'
+        href=/fxcrptic/temp2/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive25b625b625b6.css?ver=2.3.5'
         type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CHeebo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CInter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.8'
         type='text/css' media='all' />
-    <script type='text/javascript' src='temp2/wp-includes/js/jquery/jquery.minaf6caf6caf6c.js?ver=3.6.0'
+    <script type='text/javascript' src=/fxcrptic/temp2/wp-includes/js/jquery/jquery.minaf6caf6caf6c.js?ver=3.6.0'
         id='jquery-core-js'></script>
-    <script type='text/javascript' src='temp2/wp-includes/js/jquery/jquery-migrate.mind617d617d617.js?ver=3.3.2'
+    <script type='text/javascript' src=/fxcrptic/temp2/wp-includes/js/jquery/jquery-migrate.mind617d617d617.js?ver=3.3.2'
         id='jquery-migrate-js'></script>
     <script type='text/javascript'
-        src='temp2/wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min9f349f349f34.js?ver=1.0.20'
+        src=/fxcrptic/temp2/wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min9f349f349f34.js?ver=1.0.20'
         id='template-kit-export-js'></script>
     <link href="/fxcrptic/temp/wp-content/uploads/sites/56/elementor/thumbs/favicon.png" rel="shortcut icon" />
     <script src="use.fontawesome.com/b1b5c74725.js"></script>
@@ -210,17 +210,17 @@
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16">
-                                                <a href="indexe47e.php" class="elementor-item">Company
+                                                <a href="/about" class="elementor-item">Company
                                                 </a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18">
-                                                <a href="indexccbb.php" class="elementor-item">Services
+                                                <a href="/service" class="elementor-item">Services
                                                 </a>
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
-                                                <a href="index88fd.php" class="elementor-item">Investment
+                                                <a href="/pricing" class="elementor-item">Investment
                                                 </a>
                                             </li>
                                             <li
@@ -247,7 +247,7 @@
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16">
-                                                <a href="about.php" class="elementor-item">Company
+                                                <a href="/about" class="elementor-item">Company
                                                 </a>
                                             </li>
                                             <li
