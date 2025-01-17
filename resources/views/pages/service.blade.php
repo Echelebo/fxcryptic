@@ -4,7 +4,7 @@
 
     $logos = DepositCoin::inRandomOrder()->take(20)->get('logo_url');
 
-    $page_title = 'Our services ' . site('name');
+    $page_title = 'Our Services';
     $short_description =
         site('name') .
         ' uses advanced protocol trained on extensive trading data and algorithms to analyze market trends and execute profitable trades with high precision.';

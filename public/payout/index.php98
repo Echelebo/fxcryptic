@@ -1,0 +1,107 @@
+<?php
+
+/************************
+
+	CryptoConverter
+	
+	Index file, produces content of site
+	
+************************/
+
+	include("./includes/config.php");
+	include("./includes/functions.php");
+	
+	/*
+		Set language
+	*/
+	
+		// Path to browsers language file
+		$browserLanguageFile = './languages/lang_'.substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2).'.php';
+		
+		// Path to default language file
+		$defaultLanguageFile = './languages/lang_'.$defaultLanguage.'.php';
+		
+		// Check if browsers language file exists, if so, include it.
+		if(file_exists($browserLanguageFile)) {
+			include $browserLanguageFile;
+		} else {	
+			include $defaultLanguageFile;
+		}
+	
+	/*
+		Set inputs
+	*/
+	
+		// Check if there is provided an amount from GET-parameters, if not set it to 1
+		$getAMT = (!empty($_GET['amt'])) ? $_GET['amt'] : 1;
+		
+		// Amounts used by the system should always have a dot (.) as decimal separator
+		$getAMT = str_replace(',','.', $getAMT);
+		
+		// Number of decimals in input
+		$inputDecimals = strlen(substr(strrchr($getAMT, "."), 1));
+		
+		// Format currency for forms
+		$amt = str_replace($amountDecimalSeparator."00", "", number_format($getAMT, $inputDecimals, $amountDecimalSeparator, ''));
+		
+		// Retrieve selected currencies, if none, it is set use default
+		$crptCurr = (isset($_GET['crptCurr'])) ? htmlentities($_GET['crptCurr']) : $defaultCryptoCurrency;
+		$stdCurr = (isset($_GET['stdCurr'])) ? htmlentities($_GET['stdCurr']) : $defaultStandardCurrency;
+	
+	/* 
+		Generate calculation form
+	*/
+	
+		$calculationForm = '<form action="" method="GET">
+								<div class="form-group row">
+									<div class="hidden-xs hidden-sm col-md-2 col-lg-2">
+										&nbsp;
+									</div>
+									
+									<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+										<label for="amt">'.$lang['Amount'].'</label>
+										<input type="text" pattern="[-+]?[0-9]*[.,]?[0-9]+" name="amt" value="'.$amt.'" class="form-control">
+									</div>
+									<div class="col-xs-2 col-sm-2 col-md-3 col-lg-3">
+										<label for="crptCurr">'.$lang['Crypto Currency'].'</label>
+										<select name="crptCurr" class="form-control">
+											' . cryptoCurrencyOptions($crptCurr) . '
+										</select>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-md-3 col-lg-3">
+										<label for="stdCurr">'.$lang['Convert to Currency'].'</label>
+										<select name="stdCurr" class="form-control">
+											' . standardCurrencyOptions($stdCurr) . '
+										</select>
+									</div>
+								</div>
+								
+								<div class="form-group row">
+									<div class="hidden-xs hidden-sm col-md-5 col-lg-5">
+										&nbsp;
+									</div>
+									
+									<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">
+										<button type="submit" class="form-control btn btn-primary btn-lg">'.$lang['Calculate!'].'</button>
+									</div>
+								</div>
+							</form>';
+	
+	/* 
+		Run calculation
+	*/
+		
+		// Run the calculation
+		$convertedRate = fromCryptoToStandard($getAMT, $crptCurr, $stdCurr);
+		
+		// Write the calculation and result
+		$calculation = $amt . ' ' . $crptCurr . ' '.$lang['in'].' ' . $stdCurr . ' = ' . $convertedRate;
+	
+	// Generate donation button
+	if(!empty(trim($bitcoinWallet))) {
+		$donationButton = '<a class="btn btn-primary" href="bitcoin:'.$bitcoinWallet.'" role="button">'.$lang['Donate!'].'</a>';
+	}
+
+	// Include the template
+	include("template.php");
+?>

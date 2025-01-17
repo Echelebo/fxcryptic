@@ -1,7 +1,7 @@
 @php
     use App\Models\Bot;
 
-    $page_title = 'Terms of Service';
+    $page_title = 'Terms Of Service';
     $short_description =
         'Prior to availing any of our services, we kindly request that you review and acknowledge our Acceptable Use Terms of Service. Your utilization of our services constitutes your agreement to abide by the terms and conditions outlined therein. We appreciate your understanding and compliance.';
 

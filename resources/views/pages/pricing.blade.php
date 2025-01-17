@@ -1,7 +1,7 @@
 @php
     use App\Models\Bot;
 
-    $page_title = 'Our pricing';
+    $page_title = 'Investment Plans';
     $short_description =
         'We have vering portfolio ranges for our pricing plans. Select any that best fits your pocket.';
 
@@ -99,7 +99,9 @@
                                 data-id="7d75f5a" data-element_type="section"
                                 data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
                                 <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible"
+                                    @foreach ($bots as $bot)
+
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible11"
                                         data-id="0ddf454" data-element_type="column"
                                         data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
                                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -110,7 +112,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-price-table">
                                                         <div class="elementor-price-table__header">
-                                                            <h3 class="elementor-price-table__heading">Silver Plan
+                                                            <h3 class="elementor-price-table__heading">{{ $bot->name }}
                                                             </h3>
                                                             <span class="elementor-price-table__subheading">Investment
                                                                 Service
@@ -120,11 +122,11 @@
                                                             <span
                                                                 class="elementor-price-table__currency elementor-currency--before">
                                                             </span>
-                                                            <span class="elementor-price-table__integer-part">20
+                                                            <span class="elementor-price-table__integer-part">{{ $bot->daily_min }}
                                                             </span>
                                                             <div class="elementor-price-table__after-price">
                                                                 <span
-                                                                    class="elementor-price-table__fractional-part">%/24Hours
+                                                                    class="elementor-price-table__fractional-part">%/<?php $a = $bot->duration*24; echo $a;?>Hours
                                                                 </span>
                                                             </div>
                                                             <span
@@ -137,7 +139,7 @@
                                                                     <i aria-hidden="true" class="fa fa-check">
                                                                     </i>
                                                                     <span>
-                                                                        Duration: 24 Hours </span>
+                                                                        Duration: <?php $a = $bot->duration*24; echo $a;?> Hours </span>
                                                                 </div>
                                                             </li>
                                                             <li class="elementor-repeater-item-105561f">
@@ -145,7 +147,7 @@
                                                                     <i aria-hidden="true" class="fa fa-check">
                                                                     </i>
                                                                     <span>
-                                                                        Minimum: $100
+                                                                        Minimum: ${{ number_format($bot->min) }}
                                                                     </span>
                                                                 </div>
                                                             </li>
@@ -154,7 +156,7 @@
                                                                     <i aria-hidden="true" class="fa fa-check">
                                                                     </i>
                                                                     <span>
-                                                                        Maximum: $1,999
+                                                                        Maximum: ${{ number_format($bot->max) }}
                                                                     </span>
                                                                 </div>
                                                             </li>
@@ -190,10 +192,10 @@
                                                         </ul>
                                                         <div class="elementor-price-table__footer">
                                                             <a class="elementor-price-table__button elementor-button elementor-size-md"
-                                                                href="/trade/register">Get Started
+                                                                href="/register">Get Started
                                                             </a>
-                                                            <div class="elementor-price-table__additional_info">*Contact Us
-                                                                for Consultations.
+                                                            <div class="elementor-price-table__additional_info">
+                                                                *Contact Us for Consultations.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -201,310 +203,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible"
-                                        data-id="0ddf454" data-element_type="column"
-                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table"
-                                                data-id="1c93599" data-element_type="widget"
-                                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                                data-widget_type="price-table.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-price-table">
-                                                        <div class="elementor-price-table__header">
-                                                            <h3 class="elementor-price-table__heading">Premium Plan
-                                                            </h3>
-                                                            <span class="elementor-price-table__subheading">Investment
-                                                                Service
-                                                            </span>
-                                                        </div>
-                                                        <div class="elementor-price-table__price">
-                                                            <span
-                                                                class="elementor-price-table__currency elementor-currency--before">
-                                                            </span>
-                                                            <span class="elementor-price-table__integer-part">40
-                                                            </span>
-                                                            <div class="elementor-price-table__after-price">
-                                                                <span
-                                                                    class="elementor-price-table__fractional-part">%/48Hours
-                                                                </span>
-                                                            </div>
-                                                            <span
-                                                                class="elementor-price-table__period elementor-typo-excluded">
-                                                            </span>
-                                                        </div>
-                                                        <ul class="elementor-price-table__features-list">
-                                                            <li class="elementor-repeater-item-bfa36f7">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Duration: 48 Hours
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-105561f">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Minimum: $2,000
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-474ad15">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Maximum: $4,999
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-2234086">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Referral: 5%
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-2234086">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Asset Protection
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-e7980d8">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Live Support
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="elementor-price-table__footer">
-                                                            <a class="elementor-price-table__button elementor-button elementor-size-md"
-                                                                href="/trade/register">Get Started
-                                                            </a>
-                                                            <div class="elementor-price-table__additional_info">*Contact Us
-                                                                for Consultations.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible"
-                                        data-id="0ddf454" data-element_type="column"
-                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table"
-                                                data-id="1c93599" data-element_type="widget"
-                                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                                data-widget_type="price-table.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-price-table">
-                                                        <div class="elementor-price-table__header">
-                                                            <h3 class="elementor-price-table__heading">Diamond Plan
-                                                            </h3>
-                                                            <span class="elementor-price-table__subheading">Investment
-                                                                Service
-                                                            </span>
-                                                        </div>
-                                                        <div class="elementor-price-table__price">
-                                                            <span
-                                                                class="elementor-price-table__currency elementor-currency--before">
-                                                            </span>
-                                                            <span class="elementor-price-table__integer-part">60
-                                                            </span>
-                                                            <div class="elementor-price-table__after-price">
-                                                                <span
-                                                                    class="elementor-price-table__fractional-part">%/72Hours
-                                                                </span>
-                                                            </div>
-                                                            <span
-                                                                class="elementor-price-table__period elementor-typo-excluded">
-                                                            </span>
-                                                        </div>
-                                                        <ul class="elementor-price-table__features-list">
-                                                            <li class="elementor-repeater-item-bfa36f7">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Duration: 72 Hours
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-105561f">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Minimum: $5,000
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-474ad15">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Maximum: $9,999
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-2234086">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Referral: 5%
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-2234086">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Asset Protection
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-e7980d8">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Live Support
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="elementor-price-table__footer">
-                                                            <a class="elementor-price-table__button elementor-button elementor-size-md"
-                                                                href="/trade/register">Get Started
-                                                            </a>
-                                                            <div class="elementor-price-table__additional_info">*Contact Us
-                                                                for Consultations.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+@endforeach
 
-                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible"
-                                        data-id="0ddf454" data-element_type="column"
-                                        data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table"
-                                                data-id="1c93599" data-element_type="widget"
-                                                data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                                                data-widget_type="price-table.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-price-table">
-                                                        <div class="elementor-price-table__header">
-                                                            <h3 class="elementor-price-table__heading">Professional plan
-                                                            </h3>
-                                                            <span class="elementor-price-table__subheading">Investment
-                                                                Service
-                                                            </span>
-                                                        </div>
-                                                        <div class="elementor-price-table__price">
-                                                            <span
-                                                                class="elementor-price-table__currency elementor-currency--before">
-                                                            </span>
-                                                            <span class="elementor-price-table__integer-part">80
-                                                            </span>
-                                                            <div class="elementor-price-table__after-price">
-                                                                <span
-                                                                    class="elementor-price-table__fractional-part">%/168Hours
-                                                                </span>
-                                                            </div>
-                                                            <span
-                                                                class="elementor-price-table__period elementor-typo-excluded">
-                                                            </span>
-                                                        </div>
-                                                        <ul class="elementor-price-table__features-list">
-                                                            <li class="elementor-repeater-item-bfa36f7">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Duration: 168 Hours
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-105561f">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Minimum: $10,000
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-474ad15">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Maximum: Infinity
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-2234086">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Referral: 5%
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-2234086">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Asset Protection
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="elementor-repeater-item-e7980d8">
-                                                                <div class="elementor-price-table__feature-inner">
-                                                                    <i aria-hidden="true" class="fa fa-check">
-                                                                    </i>
-                                                                    <span>
-                                                                        Live Support
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="elementor-price-table__footer">
-                                                            <a class="elementor-price-table__button elementor-button elementor-size-md"
-                                                                href="/trade/register">Get Started
-                                                            </a>
-                                                            <div class="elementor-price-table__additional_info">*Contact Us
-                                                                for Consultations.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+
+
                                     <!--  <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0ddf454 elementor-invisible" data-id="0ddf454" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-1c93599 elementor-widget elementor-widget-price-table" data-id="1c93599" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="price-table.default">
@@ -679,7 +382,7 @@
                     </div>
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1ac2771"
                         data-id="1ac2771" data-element_type="column"
-                        data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                        data-setti="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-737986f elementor-widget elementor-widget-elementskit-video"
                                 data-id="737986f" data-element_type="widget"

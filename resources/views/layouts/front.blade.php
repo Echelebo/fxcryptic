@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fxcryptic </title>
+    <title>{{ $page_title }} | {{ site('name') }}</title>
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/",
@@ -160,7 +160,7 @@
         src=/fxcrptic/temp2/wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min9f349f349f34.js?ver=1.0.20'
         id='template-kit-export-js'></script>
     <link href="/fxcrptic/temp/wp-content/uploads/sites/56/elementor/thumbs/favicon.png" rel="shortcut icon" />
-    <script src="use.fontawesome.com/b1b5c74725.js"></script>
+    <script src="/fxcrptic/use.fontawesome.com/b1b5c74725.js"></script>
 
 </head>
 
@@ -621,7 +621,7 @@
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
                                             <span class="elementor-heading-title elementor-size-default">Copyright ©
-                                                2022 Fxcryptic, All rights reserved.
+                                                2025 Fxcryptic, All rights reserved.
                                             </span>
                                         </div>
                                     </div>
